@@ -1,10 +1,10 @@
 ---
 archetype: "home"
-title: "Crew Restoration & Construction | Restoration Services in Sioux Falls, SD"
-h1: "Restoration Services in Sioux Falls"
-meta_description: "Crew Restoration & Construction provides water, fire, mold, and storm damage restoration across Sioux Falls and surrounding areas. Call (605) 965-2727."
-primary_keyword: "restoration services sioux falls"
-secondary_keywords: ["restoration company near me"]
+title: "Water Damage Restoration in Sioux Falls, SD | Crew Restoration & Construction"
+h1: "Water Damage Restoration in Sioux Falls, SD"
+meta_description: "Crew Restoration & Construction provides water damage restoration in Sioux Falls, SD. IICRC certified. Call (605) 965-2727 now."
+primary_keyword: "water damage restoration sioux falls"
+secondary_keywords: ["best restoration company in sioux falls", "restoration company sioux falls", "water damage restoration near me"]
 search_intent: "local_commercial"
 priority: 5.0
 plan_hash: "0ab703170296574a"
