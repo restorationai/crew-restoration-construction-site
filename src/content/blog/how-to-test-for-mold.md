@@ -16,6 +16,7 @@ faq: [{"question": "How accurate are the mold test kits sold at hardware stores?
 published_at: "2026-07-13"
 services: ["mold-remediation", "mold-inspection-testing"]
 rendered: true
+author: "Kyle Eberts"
 ---
 Testing for mold in your home comes down to two real options: a DIY test kit from the hardware store or a professional inspection by a certified mold assessor. The short answer is that DIY kits can confirm mold is *somewhere* in your home, but they almost never tell you what matters most, where it's growing, how much of it there is, and whether the species present poses a health risk. If you're dealing with a visible stain, a musty smell that won't go away, or a recent water event, here's what you need to know before spending money on either option.
 

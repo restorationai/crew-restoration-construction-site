@@ -16,6 +16,7 @@ faq: [{"question": "Can I test for black mold myself, or do I need a professiona
 published_at: "2026-07-13"
 services: ["mold-remediation"]
 rendered: true
+author: "Kyle Eberts"
 ---
 Most mold you find in a home is not the dramatic, toxic black mold you've seen in news stories, but that doesn't mean you should ignore it. The short answer: color alone cannot tell you whether mold is dangerous. "Black mold" is a nickname for *Stachybotrys chartarum*, one specific species, but dozens of mold types appear black, gray, or dark green. Meanwhile, some genuinely hazardous molds are white or pink. What actually matters is the species, the concentration, where it's growing, and how long it's been there. Here's how to think through what you're looking at.
 

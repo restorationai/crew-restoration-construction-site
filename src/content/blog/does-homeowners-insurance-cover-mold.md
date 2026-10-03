@@ -17,6 +17,7 @@ faq: [{"question": "Does homeowners insurance cover mold remediation?", "answer"
 published_at: "2026-08-31"
 services: ["mold-remediation", "water-damage-restoration"]
 rendered: true
+author: "Kyle Eberts"
 ---
 **TL;DR:** Homeowners insurance covers mold remediation when the mold grows directly from a sudden, covered event, such as a burst pipe or an appliance that fails without warning. If mold developed slowly from a slow leak, high humidity, or deferred maintenance, most policies exclude it. Many South Dakota policies also carry mold sublimits, meaning coverage is capped even when the cause is covered. The source of the moisture is what determines the claim outcome, not the mold itself.
 

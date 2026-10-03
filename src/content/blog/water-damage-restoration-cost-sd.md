@@ -17,6 +17,7 @@ faq: [{"question": "How much does water damage restoration cost in South Dakota?
 published_at: "2026-08-26"
 services: []
 rendered: true
+author: "Kyle Eberts"
 ---
 **TL;DR:** Water damage restoration in South Dakota typically costs $1,500 to $12,000 for most residential losses. A small clean-water leak caught early runs $1,500 to $3,500. A finished basement flooded with contaminated water can push $8,000 to $15,000 or more. The biggest cost drivers are how long the water sat, what category of water it was, and how many materials need to be replaced rather than dried in place.
 

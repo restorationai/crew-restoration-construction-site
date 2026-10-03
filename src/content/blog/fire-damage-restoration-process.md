@@ -16,6 +16,7 @@ faq: [{"question": "Can I stay in my house while fire damage restoration is happ
 published_at: "2026-07-20"
 services: ["fire-damage-restoration", "smoke-damage-restoration"]
 rendered: true
+author: "Kyle Eberts"
 ---
 A house fire leaves behind more than charred walls. Even after the flames are out and the fire trucks are gone, the damage continues, smoke acids etch into surfaces, soot settles into HVAC systems, and structural materials absorb moisture from firefighting water. Understanding the fire damage restoration process helps you ask the right questions, make faster decisions, and avoid costly mistakes during one of the most stressful events a homeowner can face. Here is what the process actually looks like, from the moment the fire is extinguished to the day you walk back into a fully restored home.
 

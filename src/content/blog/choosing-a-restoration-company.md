@@ -16,6 +16,7 @@ faq: [{"question": "Can I hire my own contractor for a restoration job, or does 
 published_at: "2026-07-18"
 services: ["water-damage-restoration", "fire-damage-restoration", "mold-remediation"]
 rendered: true
+author: "Kyle Eberts"
 ---
 The honest answer to choosing a restoration company: vet them *before* disaster strikes, because when water is pouring through your ceiling at 11 p.m. or smoke residue is soaking into your drywall, you will not have time to comparison-shop. If you are already in the middle of a loss, skip to the checklist below. If you are researching ahead of time, smart move. The difference between a contractor who makes your insurance claim smooth and one who makes it a nightmare often comes down to five things that most homeowners never think to ask.
 

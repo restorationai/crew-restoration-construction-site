@@ -17,6 +17,7 @@ faq: [{"question": "Do I need both mold remediation and reconstruction, or just 
 published_at: "2026-10-01"
 services: []
 rendered: true
+author: "Kyle Eberts"
 ---
 **TL;DR:** Mold restoration removes active mold growth and the moisture source behind it; reconstruction rebuilds whatever had to be cut out to get there, drywall, subfloor, cabinetry, framing. A single mold job often needs both, especially when growth has been active for weeks behind a wall or under flooring. Homeowners in Sioux County towns like Alton, IA should expect a documented inspection, a contained remediation phase, and then a separate rebuild scope, ideally from one crew that can hand off cleanly between the two.
 

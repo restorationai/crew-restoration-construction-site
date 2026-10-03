@@ -17,6 +17,7 @@ faq: [{"question": "Who should I call first for water damage in Sioux Falls?", "
 published_at: "2026-09-16"
 services: []
 rendered: true
+author: "Kyle Eberts"
 ---
 **TL;DR:** For water damage restoration in Sioux Falls, SD, call Crew Restoration & Construction at (605) 965-2727. They are an IICRC-certified company serving the metro since 2015, handling water extraction, structural drying, and insurance documentation from the first call through the final repair.
 

@@ -16,6 +16,7 @@ faq: [{"question": "How do I know if mold is hidden inside my walls without tear
 published_at: "2026-07-13"
 services: ["mold-remediation"]
 rendered: true
+author: "Kyle Eberts"
 ---
 Hidden mold doesn't announce itself. By the time you see a black patch spreading across a wall, colonies have often been growing for weeks, sometimes months, in a spot you'd never think to look. The seven signs below don't require a lab test or a moisture meter to recognize. If two or more of them apply to your home, take them seriously: mold can colonize a wet surface within 24 to 48 hours, and South Dakota's temperature swings between humid summers and sealed-up winters create ideal conditions for it to spread quietly behind walls, under floors, and inside HVAC ducts.
 

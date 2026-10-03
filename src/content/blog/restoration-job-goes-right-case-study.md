@@ -17,6 +17,7 @@ faq: [{"question": "What should I expect from a restoration crew during a home r
 published_at: "2026-09-29"
 services: []
 rendered: true
+author: "Kyle Eberts"
 ---
 When something goes wrong at home, whether it is a flooded basement, storm damage on the roof, or another problem that turns a house upside down, the property owner rarely remembers the technical details months later. What sticks is how the crew treated them, whether anyone explained what was happening, and whether the person standing in their living room actually seemed to care. That is the story behind a recent five-star review left for Crew Restoration & Construction.
 

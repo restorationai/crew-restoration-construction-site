@@ -17,6 +17,7 @@ faq: [{"question": "How much does water damage restoration cost in Sioux Falls, 
 published_at: "2026-09-03"
 services: ["water-damage-restoration"]
 rendered: true
+author: "Kyle Eberts"
 ---
 **TL;DR:** Water damage restoration in Sioux Falls, SD typically costs $1,500 to $8,500 for most residential losses. A single room with clean water runs $1,200 to $3,500. A finished basement with contaminated water can reach $10,000 or more. Your homeowners policy usually covers the restoration minus your deductible, as long as the source was sudden and accidental. The water category, affected square footage, and materials involved are the three biggest cost drivers.
 

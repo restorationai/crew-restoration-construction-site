@@ -17,6 +17,7 @@ faq: [{"question": "How much does mold remediation cost in South Dakota?", "answ
 published_at: "2026-08-17"
 services: ["mold-remediation"]
 rendered: true
+author: "Kyle Eberts"
 ---
 **TL;DR:** Mold remediation in South Dakota typically costs $1,500 to $6,000 for most residential jobs, with basement and crawl space work often running $3,000 to $9,000 or more depending on square footage, affected materials, and how long the moisture was present. Sioux Falls homeowners pay rates in line with national averages, though finished basements and the region's winter humidity swings can push costs higher. Every job is different, and a written scope from a certified contractor is the only reliable number.
 

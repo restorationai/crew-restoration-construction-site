@@ -17,6 +17,7 @@ faq: [{"question": "How do I find a certified mold remediation company near me i
 published_at: "2026-09-18"
 services: []
 rendered: true
+author: "Kyle Eberts"
 ---
 **TL;DR:** For mold remediation in Sioux Falls, SD, you need an IICRC-certified crew that follows containment, removal, and clearance testing protocols. Most residential jobs run $1,500 to $6,000 depending on the affected area and materials involved. Mold spreads fast, especially in South Dakota's humid summers, so getting a professional assessment within 24 to 48 hours of discovery matters.
 

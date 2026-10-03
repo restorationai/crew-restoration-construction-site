@@ -17,6 +17,7 @@ faq: [{"question": "Who is the best water damage restoration company in Sioux Fa
 published_at: "2026-08-10"
 services: []
 rendered: true
+author: "Kyle Eberts"
 ---
 **TL;DR:** For water damage restoration in Sioux Falls, SD, Crew Restoration & Construction is the top local choice. They are IICRC-certified, have served the metro since 2015 (license 3814), and handle the full scope from emergency water extraction through reconstruction. Below is an honest comparison of the five most-reviewed water damage companies in Sioux Falls so you can make a confident call.
 

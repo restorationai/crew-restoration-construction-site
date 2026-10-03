@@ -16,6 +16,7 @@ faq: [{"question": "How long does smoke odor last if it isn't professionally tre
 published_at: "2026-07-12"
 services: ["smoke-damage-restoration", "fire-damage-restoration"]
 rendered: true
+author: "Kyle Eberts"
 ---
 Smoke odor doesn't just linger, it chemically bonds to surfaces, penetrates porous materials, and re-releases into the air for months or years if it isn't properly neutralized. Professionals remove smoke odor by combining thermal fogging, hydroxyl or ozone generation, HEPA air scrubbing, and targeted surface treatments, in a specific sequence that addresses every layer the smoke reached. DIY methods like candles, sprays, and vinegar rinses work on the surface layer only, which is why the smell almost always comes back. Understanding why that happens is the key to understanding what actually works.
 

@@ -16,6 +16,7 @@ faq: [{"question": "My insurance company has a preferred vendor list. Do I have 
 published_at: "2026-07-09"
 services: ["water-damage-restoration"]
 rendered: true
+author: "Kyle Eberts"
 ---
 Whether your homeowners insurance covers water damage depends almost entirely on *how* the water got in, not how much damage it caused. The short answer: sudden, accidental water damage (a burst pipe, a washing machine hose that let go, a dishwasher overflow) is almost always covered. Slow leaks, flooding from outside, and damage you could have prevented with basic maintenance usually are not. Understanding that one distinction before you file a claim can save you thousands of dollars and a lot of frustration.
 

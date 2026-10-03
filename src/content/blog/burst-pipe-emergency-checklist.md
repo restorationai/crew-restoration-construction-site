@@ -16,6 +16,7 @@ faq: [{"question": "How long does it take for mold to grow after a pipe bursts?"
 published_at: "2026-07-11"
 services: ["water-damage-restoration", "appliance-leak-cleanup"]
 rendered: true
+author: "Kyle Eberts"
 ---
 When a pipe bursts, the first 10 minutes matter more than anything that follows. Shut off the main water supply valve, usually near the water meter, in a basement, crawl space, or utility closet, then cut power to any rooms where water is pooling near outlets or panels. After that, you have time to think. This checklist walks you through every step in order: what to do right now, what to skip, how to document the damage, and when the situation is beyond a mop and a fan.
 

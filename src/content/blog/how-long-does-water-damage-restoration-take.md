@@ -16,6 +16,7 @@ faq: [{"question": "Can I run fans and dehumidifiers myself instead of hiring a 
 published_at: "2026-07-05"
 services: ["water-damage-restoration"]
 rendered: true
+author: "Kyle Eberts"
 ---
 Most water damage restoration projects take **3 to 5 days** from the moment a crew arrives to the moment the structure is dry enough for repairs. But that number can stretch to 2 to 4 weeks, or longer, depending on how much water got in, where it went, and how quickly the drying process started. The single biggest variable isn't the size of the leak. It's how long the water sat before anyone called.
 

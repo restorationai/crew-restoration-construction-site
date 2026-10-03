@@ -16,6 +16,7 @@ faq: [{"question": "How long do I have before water damage becomes a mold proble
 published_at: "2026-07-23"
 services: ["water-damage-restoration"]
 rendered: true
+author: "Kyle Eberts"
 ---
 If water is actively spreading through your home right now, stop reading and do three things first: shut off the water supply, cut power to any flooded rooms at the breaker box, and get everyone out of standing water. Once those immediate threats are handled, come back here, because what you do in the next 24 hours will determine how much of your home you save and how much you spend to save it.
 
