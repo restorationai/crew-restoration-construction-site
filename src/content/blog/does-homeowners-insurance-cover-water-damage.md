@@ -43,7 +43,7 @@ Here's how most standard policies break down:
 
 **Usually NOT covered:**
 - Flooding, water that enters from outside (rising rivers, storm surge, heavy rain overwhelming drainage) is excluded from standard homeowners policies. You need a separate NFIP or private flood policy for that. In Sioux Falls, where spring snowmelt and severe thunderstorms can overwhelm storm sewers quickly, this gap is worth knowing about.
-- Sewer or drain backup, this is also excluded by default, though many insurers offer it as an affordable endorsement (add-on). If you've ever had sewage back up through a floor drain, you know why it's worth the extra premium.
+- Sewer or drain backup, this is also excluded by default, though many insurers offer it as an affordable endorsement (add-on). If you've ever had [sewage back up](/services/sewage-cleanup/) through a floor drain, you know why it's worth the extra premium.
 - Gradual leaks and seepage, as described above
 - Damage caused by neglected maintenance (a roof that was already failing before the storm, a water heater that hadn't been serviced in 15 years)
 - Mold remediation, in many cases, some policies cover mold that results from a covered water loss, but only up to a sublimit (often $5,000–$10,000), and only if you took reasonable steps to dry things out promptly
@@ -62,7 +62,7 @@ How you respond in the first few hours affects both the physical outcome and you
 
 This is the part most homeowners underestimate. Under the right conditions, warm temperatures, organic material like drywall paper or wood framing, and relative humidity above roughly 60%, mold can begin to colonize within 24 to 48 hours of a water event. Once it establishes, it spreads, and remediation becomes significantly more involved (and expensive) than simple drying.
 
-South Dakota summers don't help. A wet basement or crawl space in July is close to ideal conditions for rapid mold growth. If your water damage event happened more than 24 hours ago and the area hasn't been actively dried, treat mold as a real possibility, not a hypothetical.
+South Dakota summers don't help. A wet basement or crawl space in July is close to ideal conditions for [rapid mold growth](/services/mold-remediation/). If your water damage event happened more than 24 hours ago and the area hasn't been actively dried, treat mold as a real possibility, not a hypothetical.
 
 If mold is present or suspected, don't run fans across affected surfaces, that can spread spores to unaffected areas. A restoration crew with proper containment protocols and air scrubbers handles this differently than standard drying.
 
@@ -73,7 +73,7 @@ Once you've filed your claim, here's what a typical timeline looks like:
 - **Day 1–2:** Adjuster is assigned. In straightforward cases, they may do a virtual inspection via photos you submit; larger losses typically get an in-person visit.
 - **Day 1–3 (simultaneously):** A restoration company begins emergency services, water extraction, placement of industrial air movers and dehumidifiers, moisture mapping. Drying a structure to IICRC S500 standard typically takes 3–5 days, depending on materials and ambient conditions.
 - **Day 3–7:** The adjuster reviews the scope of damage. A good restoration contractor will provide detailed documentation (moisture readings, equipment logs, affected square footage) that supports your claim.
-- **Week 2 and beyond:** Once the structure is dry and the claim is approved, reconstruction begins, replacing drywall, flooring, cabinets, and any other structural elements that couldn't be salvaged.
+- **Week 2 and beyond:** Once the structure is dry and the claim is approved, [reconstruction](/services/reconstruction/) begins, replacing drywall, flooring, cabinets, and any other structural elements that couldn't be salvaged.
 
 The restoration and the insurance process run in parallel, not sequentially. You don't need to wait for a check before drying begins.
 

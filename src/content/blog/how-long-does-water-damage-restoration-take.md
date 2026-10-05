@@ -72,7 +72,7 @@ Reconstruction scope depends entirely on what came out during mitigation:
 - **Flooring replacement** (hardwood, LVP, tile): 2 to 5 days depending on material and subfloor condition.
 - **Full basement finish rebuild** after a significant flood: 3 to 6 weeks is realistic when you account for framing, insulation, drywall, electrical inspection, flooring, and paint.
 
-The total project timeline, mitigation plus reconstruction, for a moderate basement flood is commonly 3 to 6 weeks from first call to final walkthrough. For a more contained loss like a dishwasher leak that affected a kitchen floor and one cabinet run, you might be back to normal in 10 to 14 days.
+The total project timeline, mitigation plus reconstruction, for a moderate [basement flood](/services/basement-flooding-cleanup/) is commonly 3 to 6 weeks from first call to final walkthrough. For a more contained loss like a dishwasher leak that affected a kitchen floor and one cabinet run, you might be back to normal in 10 to 14 days.
 
 ## Closing: When to Stop Estimating and Start Calling
 
