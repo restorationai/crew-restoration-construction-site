@@ -65,14 +65,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "643",
+  gbpReviewCount: "648",
   gbpReviews: [
+    { author: "Randy", rating: 5, text: "The people at Crew really do care. Zach Wiseman is always friendly and smiling. He has such a positive attitude and always is brightening someone's day. Keep up the good work Zach!", when: "October 2026" },
+    { author: "Jake", rating: 5, text: "Zach is the man. Goes above and beyond to help in every situation!!", when: "October 2026" },
+    { author: "Andrew", rating: 5, text: "Zach is the best! Professional and very knowledgeable!", when: "October 2026" },
+    { author: "D", rating: 5, text: "Highly recommend! Zach is professional and has great communication!", when: "October 2026" },
     { author: "Mr.", rating: 5, text: "Zack is seriously a 1000/10! I cannot say enough good things about him. He was incredibly friendly, helpful, and made the entire experience so easy. His customer service is next level and you can tell he genuinely cares about the people he’s helping. It’s hard to find people who go above and beyond…", when: "October 2026" },
     { author: "Jessica", rating: 5, text: "Zach was so incredibly helpful during our process. It came incredibly natural. His helpfulness and compassion shone through. I’d recommend him 1000 times if I could! Hit up Zach, you won’t regret it!", when: "October 2026" },
-    { author: "Kaleb", rating: 5, text: "Zach Wiseman was great to work and communicate with! Great people skills and accomplished everything we talked about!", when: "October 2026" },
-    { author: "Lacey", rating: 5, text: "Zach Wiseman! He is the best!!!", when: "October 2026" },
-    { author: "C", rating: 5, text: "Zach was very helpful, I appreciate the communication during the process would recommend!", when: "October 2026" },
-    { author: "Austin", rating: 5, text: "Zach is the MAN! Always pulls through. We had a sump issue and Zach and the CREW did great work!", when: "October 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Sioux Falls, SD.",
   ctaLabel: "24/7 Emergency Line",
