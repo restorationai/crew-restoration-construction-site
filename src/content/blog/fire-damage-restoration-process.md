@@ -42,7 +42,7 @@ Before any restoration work begins, there is a sequence of events that sets the 
 
 3. **Document everything before anyone touches it.** Walk through with your phone and photograph every room, every damaged item, every affected surface. This documentation is your evidence for the insurance claim.
 
-4. **Contact a licensed restoration contractor.** Many restoration companies, including Crew Restoration & Construction here in Sioux Falls, can begin emergency board-up and tarping services quickly to secure the structure and prevent weather from compounding the damage. South Dakota winters are unforgiving; an unsecured roof opening after a January fire can cause as much additional damage as the fire itself.
+4. **Contact a licensed restoration contractor.** Many restoration companies, including Crew Restoration & Construction here in Sioux Falls, can begin [emergency board-up and tarping services](/services/emergency-board-up-tarping/) quickly to secure the structure and prevent weather from compounding the damage. South Dakota winters are unforgiving; an unsecured roof opening after a January fire can cause as much additional damage as the fire itself.
 
 5. **Arrange temporary housing if needed.** If the home is uninhabitable, your homeowner's insurance policy likely includes Additional Living Expenses (ALE) coverage. Ask your adjuster about this before paying out of pocket for a hotel.
 
@@ -70,7 +70,7 @@ Once the site is secured and the insurance process is underway, a professional r
 
 **Odor elimination** uses equipment like ozone generators or hydroxyl machines, and sometimes thermal fogging, a process that sends a fine deodorizing mist into the same microscopic spaces that smoke penetrated. This step is not cosmetic; it is structural.
 
-**Reconstruction** is the final phase. Depending on the severity of the fire, this can range from repainting a single room to rebuilding entire sections of the home. Crew Restoration & Construction handles both the mitigation and the rebuild, which means one contractor manages the project from emergency response through final inspection, a significant advantage when coordinating with insurance adjusters.
+**Reconstruction** is the final phase. Depending on the severity of the fire, this can range from repainting a single room to rebuilding entire sections of the home. Crew Restoration & Construction handles both the mitigation and [the rebuild](/services/reconstruction/), which means one contractor manages the project from emergency response through final inspection, a significant advantage when coordinating with insurance adjusters.
 
 ## The Timeline: How Long Does Fire Restoration Take?
 
