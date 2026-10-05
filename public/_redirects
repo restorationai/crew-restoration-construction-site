@@ -281,3 +281,217 @@
 # plumbing gate 2026-10-01: emergency plumbing held until the plumbing name/DBA is confirmed (scripts/plumbing_gate.py)
 /services/emergency-plumbing /services/water-damage-restoration/ 301
 /services/emergency-plumbing/ /services/water-damage-restoration/ 301
+
+# site-move rule 2026-10-04: traffic page migrated to its own post (scripts/cutover_harvest.py migrate)
+/identifying-a-water-leak /blog/identifying-a-water-leak/ 301
+/identifying-a-water-leak/ /blog/identifying-a-water-leak/ 301
+
+# site-move rule 2026-10-04: traffic page migrated to its own post (scripts/cutover_harvest.py migrate)
+/5-common-siding-installation-mistakes-to-avoid /blog/5-common-siding-installation-mistakes-to-avoid/ 301
+/5-common-siding-installation-mistakes-to-avoid/ /blog/5-common-siding-installation-mistakes-to-avoid/ 301
+
+# site-move rule 2026-10-04: traffic page migrated to its own post (scripts/cutover_harvest.py migrate)
+/how-to-identify-dry-rot /blog/how-to-identify-dry-rot/ 301
+/how-to-identify-dry-rot/ /blog/how-to-identify-dry-rot/ 301
+
+# site-move rule 2026-10-04: traffic page migrated to its own post (scripts/cutover_harvest.py migrate)
+/replacing-popcorn-ceilings /blog/replacing-popcorn-ceilings/ 301
+/replacing-popcorn-ceilings/ /blog/replacing-popcorn-ceilings/ 301
+
+# site-move rule 2026-10-04: traffic page migrated to its own post (scripts/cutover_harvest.py migrate)
+/what-to-do-about-mold-issues-in-a-restaurant-kitchen /blog/what-to-do-about-mold-issues-in-a-restaurant-kitchen/ 301
+/what-to-do-about-mold-issues-in-a-restaurant-kitchen/ /blog/what-to-do-about-mold-issues-in-a-restaurant-kitchen/ 301
+
+# site-move rule 2026-10-04: traffic page migrated to its own post (scripts/cutover_harvest.py migrate)
+/the-dirt-on-hoarding /blog/the-dirt-on-hoarding/ 301
+/the-dirt-on-hoarding/ /blog/the-dirt-on-hoarding/ 301
+
+# site-move rule 2026-10-04: traffic page migrated to its own post (scripts/cutover_harvest.py migrate)
+/when-to-obtain-a-building-permit /blog/when-to-obtain-a-building-permit/ 301
+/when-to-obtain-a-building-permit/ /blog/when-to-obtain-a-building-permit/ 301
+
+# site-move rule 2026-10-04: traffic page migrated to its own post (scripts/cutover_harvest.py migrate)
+/dangers-of-black-mold /blog/dangers-of-black-mold/ 301
+/dangers-of-black-mold/ /blog/dangers-of-black-mold/ 301
+
+# site-move rule 2026-10-04: traffic page migrated to its own post (scripts/cutover_harvest.py migrate)
+/hail-damage-we-can-help /services/storm-damage-restoration/ 301
+/hail-damage-we-can-help/ /services/storm-damage-restoration/ 301
+
+# site-move rule 2026-10-04: traffic page migrated to its own post (scripts/cutover_harvest.py migrate)
+/theres-water-in-my-basement /blog/theres-water-in-my-basement/ 301
+/theres-water-in-my-basement/ /blog/theres-water-in-my-basement/ 301
+
+# site-move rule 2026-10-04: traffic page migrated to its own post (scripts/cutover_harvest.py migrate)
+/pros-and-cons-of-a-metal-roof /blog/pros-and-cons-of-a-metal-roof/ 301
+/pros-and-cons-of-a-metal-roof/ /blog/pros-and-cons-of-a-metal-roof/ 301
+
+# old-site 404 recovery 2026-10-04 (traffic audit class 2, SEO queue 1c): old URLs with search
+# traffic that matched no rule. Each 301s 1:1 to its equivalent page (hand-reviewed), never a
+# generic one; restored articles live under /blog/.
+/bruce /service-areas/brookings-sd/ 301
+/bruce/ /service-areas/brookings-sd/ 301
+/job-completed-for-alice-roszyk-sioux-falls-water-damage /case-studies/water-damage-restoration-for-alice-in-sioux-falls-sd/ 301
+/job-completed-for-alice-roszyk-sioux-falls-water-damage/ /case-studies/water-damage-restoration-for-alice-in-sioux-falls-sd/ 301
+/sioux-falls-sd/job-completed-for-chad-bozzell-sioux-falls-structure-damage /case-studies/tree-impact-structural-repair-for-chad-in-sioux-falls-sd/ 301
+/sioux-falls-sd/job-completed-for-chad-bozzell-sioux-falls-structure-damage/ /case-studies/tree-impact-structural-repair-for-chad-in-sioux-falls-sd/ 301
+/restorationservices/biohazard-trauma-cleanup /services/biohazard-cleanup/ 301
+/restorationservices/biohazard-trauma-cleanup/ /services/biohazard-cleanup/ 301
+/author/kylecrew3r-com /case-studies/ 301
+/author/kylecrew3r-com/ /case-studies/ 301
+/job-completed-for-angela-and-marty-lammers-tea-sd-structure-damage /case-studies/structural-repair-and-full-bathroom-remodel-for-angela-in-tea-sd/ 301
+/job-completed-for-angela-and-marty-lammers-tea-sd-structure-damage/ /case-studies/structural-repair-and-full-bathroom-remodel-for-angela-in-tea-sd/ 301
+/constructionservices/commercial-remodel /services/general-contracting/ 301
+/constructionservices/commercial-remodel/ /services/general-contracting/ 301
+/why-choose-us /about/ 301
+/why-choose-us/ /about/ 301
+/restorationservices/sanitization-cleaning /services/biohazard-cleanup/ 301
+/restorationservices/sanitization-cleaning/ /services/biohazard-cleanup/ 301
+/job-completed-for-pattison-doreen-harrisburg-environmental-damage /case-studies/mold-remediation-in-a-mechanical-room-for-pattison-in-harrisburg-sd/ 301
+/job-completed-for-pattison-doreen-harrisburg-environmental-damage/ /case-studies/mold-remediation-in-a-mechanical-room-for-pattison-in-harrisburg-sd/ 301
+/harrisburg /service-areas/harrisburg-sd/ 301
+/harrisburg/ /service-areas/harrisburg-sd/ 301
+/vermillion /service-areas/elk-point-sd/ 301
+/vermillion/ /service-areas/elk-point-sd/ 301
+/job-completed-for-van-meeteren-jordan-sioux-falls-water-damage /case-studies/water-damage-restoration-for-van-in-sioux-falls-sd/ 301
+/job-completed-for-van-meeteren-jordan-sioux-falls-water-damage/ /case-studies/water-damage-restoration-for-van-in-sioux-falls-sd/ 301
+/job-completed-for-chad-bozzell-sioux-falls-structure-damage /case-studies/tree-impact-structural-repair-for-chad-in-sioux-falls-sd/ 301
+/job-completed-for-chad-bozzell-sioux-falls-structure-damage/ /case-studies/tree-impact-structural-repair-for-chad-in-sioux-falls-sd/ 301
+/arlington /service-areas/brookings-sd/ 301
+/arlington/ /service-areas/brookings-sd/ 301
+/hudson /service-areas/hawarden-ia/ 301
+/hudson/ /service-areas/hawarden-ia/ 301
+/trent-sd /service-areas/dell-rapids-sd/ 301
+/trent-sd/ /service-areas/dell-rapids-sd/ 301
+/drying-walls-after-water-damage /services/water-damage-restoration/ 301
+/drying-walls-after-water-damage/ /services/water-damage-restoration/ 301
+/flandreau-south-dakota /service-areas/flandreau-sd/ 301
+/flandreau-south-dakota/ /service-areas/flandreau-sd/ 301
+/rock-rapids-iowa /service-areas/rock-rapids-ia/ 301
+/rock-rapids-iowa/ /service-areas/rock-rapids-ia/ 301
+/dakota-dunes /service-areas/dakota-dunes-sd/ 301
+/dakota-dunes/ /service-areas/dakota-dunes-sd/ 301
+/sioux-center-iowa /service-areas/sioux-center-ia/ 301
+/sioux-center-iowa/ /service-areas/sioux-center-ia/ 301
+/wilmont-minnesota /service-areas/worthington-mn/ 301
+/wilmont-minnesota/ /service-areas/worthington-mn/ 301
+/luverne-mn /service-areas/luverne-mn/ 301
+/luverne-mn/ /service-areas/luverne-mn/ 301
+/yankton /service-areas/yankton-sd/ 301
+/yankton/ /service-areas/yankton-sd/ 301
+/brookings /service-areas/brookings-sd/ 301
+/brookings/ /service-areas/brookings-sd/ 301
+/parker /service-areas/parker-sd/ 301
+/parker/ /service-areas/parker-sd/ 301
+/restorationservices/water-damage-restoration /services/water-damage-restoration/ 301
+/restorationservices/water-damage-restoration/ /services/water-damage-restoration/ 301
+/farmer /service-areas/salem-sd/ 301
+/farmer/ /service-areas/salem-sd/ 301
+/locations/water-restoration-brookings-sd-water /service-areas/brookings-sd/water-damage-restoration/ 301
+/locations/water-restoration-brookings-sd-water/ /service-areas/brookings-sd/water-damage-restoration/ 301
+/dell-rapids-sd /service-areas/dell-rapids-sd/ 301
+/dell-rapids-sd/ /service-areas/dell-rapids-sd/ 301
+/burbank /service-areas/elk-point-sd/ 301
+/burbank/ /service-areas/elk-point-sd/ 301
+/montrose /service-areas/humboldt-sd/ 301
+/montrose/ /service-areas/humboldt-sd/ 301
+/biohazard-trauma-cleanup-services-in-sioux-falls /services/biohazard-cleanup/ 301
+/biohazard-trauma-cleanup-services-in-sioux-falls/ /services/biohazard-cleanup/ 301
+/akronlowa /service-areas/akron-ia/ 301
+/akronlowa/ /service-areas/akron-ia/ 301
+/sioux-falls /service-areas/sioux-falls-sd/ 301
+/sioux-falls/ /service-areas/sioux-falls-sd/ 301
+/renner-sd /service-areas/renner-corner-sd/ 301
+/renner-sd/ /service-areas/renner-corner-sd/ 301
+/constructionservices/new-home-construction /services/general-contracting/ 301
+/constructionservices/new-home-construction/ /services/general-contracting/ 301
+/fireplace-addition /services/general-contracting/ 301
+/fireplace-addition/ /services/general-contracting/ 301
+/replacing-your-tub-with-a-shower /services/general-contracting/ 301
+/replacing-your-tub-with-a-shower/ /services/general-contracting/ 301
+/colton /service-areas/baltic-sd/ 301
+/colton/ /service-areas/baltic-sd/ 301
+/worthington-minnesota /service-areas/worthington-mn/ 301
+/worthington-minnesota/ /service-areas/worthington-mn/ 301
+/chancellor /service-areas/lennox-sd/ 301
+/chancellor/ /service-areas/lennox-sd/ 301
+/we-restore-water-damage-quickly /services/water-damage-restoration/ 301
+/we-restore-water-damage-quickly/ /services/water-damage-restoration/ 301
+/canistota /service-areas/salem-sd/ 301
+/canistota/ /service-areas/salem-sd/ 301
+/moe /service-areas/ 301
+/moe/ /service-areas/ 301
+/alcester /service-areas/beresford-sd/ 301
+/alcester/ /service-areas/beresford-sd/ 301
+/trent /service-areas/dell-rapids-sd/ 301
+/trent/ /service-areas/dell-rapids-sd/ 301
+/inwood /service-areas/canton-sd/ 301
+/inwood/ /service-areas/canton-sd/ 301
+/spencer /service-areas/salem-sd/ 301
+/spencer/ /service-areas/salem-sd/ 301
+/sioux-center-ia /service-areas/sioux-center-ia/ 301
+/sioux-center-ia/ /service-areas/sioux-center-ia/ 301
+/dolton /service-areas/parker-sd/ 301
+/dolton/ /service-areas/parker-sd/ 301
+/how-to-deal-with-burst-pipes /blog/burst-pipe-emergency-checklist/ 301
+/how-to-deal-with-burst-pipes/ /blog/burst-pipe-emergency-checklist/ 301
+/proper-roof-ventilation-and-insulation /services/roofing/ 301
+/proper-roof-ventilation-and-insulation/ /services/roofing/ 301
+/beloit /service-areas/canton-sd/ 301
+/beloit/ /service-areas/canton-sd/ 301
+/bruce-minnesota /service-areas/brookings-sd/ 301
+/bruce-minnesota/ /service-areas/brookings-sd/ 301
+/we-help-deal-with-insurance /blog/does-homeowners-insurance-cover-water-damage/ 301
+/we-help-deal-with-insurance/ /blog/does-homeowners-insurance-cover-water-damage/ 301
+/ward /service-areas/flandreau-sd/ 301
+/ward/ /service-areas/flandreau-sd/ 301
+/sibley-iowa /service-areas/sibley-ia/ 301
+/sibley-iowa/ /service-areas/sibley-ia/ 301
+/dangers-of-turkey-fryers /services/fire-damage-restoration/ 301
+/dangers-of-turkey-fryers/ /services/fire-damage-restoration/ 301
+/hooker /service-areas/parker-sd/ 301
+/hooker/ /service-areas/parker-sd/ 301
+/emmet /service-areas/ 301
+/emmet/ /service-areas/ 301
+/brant-lake /service-areas/madison-sd/ 301
+/brant-lake/ /service-areas/madison-sd/ 301
+/case-study-crew-restoration-construction-148 /case-studies/ 301
+/case-study-crew-restoration-construction-148/ /case-studies/ 301
+/sinancing-services / 301
+/sinancing-services/ / 301
+/locations/home-remodeling-hartford-sd /service-areas/hartford-sd/general-contracting/ 301
+/locations/home-remodeling-hartford-sd/ /service-areas/hartford-sd/general-contracting/ 301
+/careers-hiring-now /about/ 301
+/careers-hiring-now/ /about/ 301
+/lester-ia /service-areas/rock-rapids-ia/ 301
+/lester-ia/ /service-areas/rock-rapids-ia/ 301
+/job-completed-for-brian-hansen-brandon-water-damage /case-studies/water-damage-restoration-for-brian-in-brandon-sd/ 301
+/job-completed-for-brian-hansen-brandon-water-damage/ /case-studies/water-damage-restoration-for-brian-in-brandon-sd/ 301
+/rock-rapids-ia /service-areas/rock-rapids-ia/ 301
+/rock-rapids-ia/ /service-areas/rock-rapids-ia/ 301
+/job-completed-for-earl-joffer-parker-sd-structure-damage /case-studies/storm-driven-structural-repair-for-earl-in-parker-sd/ 301
+/job-completed-for-earl-joffer-parker-sd-structure-damage/ /case-studies/storm-driven-structural-repair-for-earl-in-parker-sd/ 301
+/job-completed-for-dan-sioux-falls-structure-damage /case-studies/structural-repair-and-mold-remediation-for-dan-in-sioux-falls-sd/ 301
+/job-completed-for-dan-sioux-falls-structure-damage/ /case-studies/structural-repair-and-mold-remediation-for-dan-in-sioux-falls-sd/ 301
+/case-study-crew-restoration-construction-44 /services/mold-remediation/ 301
+/case-study-crew-restoration-construction-44/ /services/mold-remediation/ 301
+/job-completed-for-lavoy-liz-sioux-falls-water-damage /case-studies/water-damage-restoration-for-lavoy-in-sioux-falls-sd/ 301
+/job-completed-for-lavoy-liz-sioux-falls-water-damage/ /case-studies/water-damage-restoration-for-lavoy-in-sioux-falls-sd/ 301
+/case-study-crew-restoration-construction-220 /case-studies/ 301
+/case-study-crew-restoration-construction-220/ /case-studies/ 301
+/case-study-crew-restoration-construction-33 /services/biohazard-cleanup/ 301
+/case-study-crew-restoration-construction-33/ /services/biohazard-cleanup/ 301
+/case-study-crew-restoration-construction-355 /case-studies/ 301
+/case-study-crew-restoration-construction-355/ /case-studies/ 301
+/exterior-services-jobs-completed-exterior-services /services/siding-gutters/ 301
+/exterior-services-jobs-completed-exterior-services/ /services/siding-gutters/ 301
+/case-study-crew-restoration-construction-170 /case-studies/ 301
+/case-study-crew-restoration-construction-170/ /case-studies/ 301
+/case-study-crew-restoration-construction-334 /services/water-damage-restoration/ 301
+/case-study-crew-restoration-construction-334/ /services/water-damage-restoration/ 301
+/case-study-crew-restoration-construction-38 /case-studies/ 301
+/case-study-crew-restoration-construction-38/ /case-studies/ 301
+/case-study-crew-restoration-construction-408 /case-studies/ 301
+/case-study-crew-restoration-construction-408/ /case-studies/ 301
+/case-study-crew-restoration-construction-266 /case-studies/ 301
+/case-study-crew-restoration-construction-266/ /case-studies/ 301
