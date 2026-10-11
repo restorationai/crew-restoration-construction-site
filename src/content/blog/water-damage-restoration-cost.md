@@ -46,7 +46,7 @@ These are typical industry figures for the Sioux Falls market. Every loss is dif
 
 Four things move the cost more than anything else: water category, affected square footage, the materials involved, and how fast you called.
 
-**Water category** is the biggest single variable. The [IICRC S500 standard](https://www.iicrc.org/page/IICRCS500) defines three categories. Category 1 is clean water from a supply line or appliance. Category 2, also called gray water, comes from dishwashers, washing machines, or toilet overflows without solid waste. Category 3, called black water, includes sewage backups, floodwater, and any water that has sat long enough to grow bacteria. Category 3 requires full PPE, antimicrobial treatment, and often complete material removal rather than drying in place. That difference in protocol is why a sewage backup in a McKennan Park basement costs three to four times more than a burst supply line in the same space.
+**Water category** is the biggest single variable. The [IICRC S500 standard](https://iicrc.org/s500/) defines three categories. Category 1 is clean water from a supply line or appliance. Category 2, also called gray water, comes from dishwashers, washing machines, or toilet overflows without solid waste. Category 3, called black water, includes sewage backups, floodwater, and any water that has sat long enough to grow bacteria. Category 3 requires full PPE, antimicrobial treatment, and often complete material removal rather than drying in place. That difference in protocol is why a sewage backup in a McKennan Park basement costs three to four times more than a burst supply line in the same space.
 
 **Affected square footage and class of loss** matter almost as much. The IICRC also classifies losses by how much moisture has migrated into materials. Class 1 means a small area with minimal absorption. Class 4 means materials like hardwood, concrete, or plaster have absorbed water deeply and require specialty drying. A Class 1 loss in a Prairie Green laundry room is a one-day job. A Class 3 loss where water wicked up drywall 24 inches in a finished basement is a multi-week project.
 
@@ -73,7 +73,7 @@ For a deeper look at what South Dakota policies actually pay, see our post on [w
 
 ## What Does the Restoration Process Actually Look Like?
 
-Understanding the phases helps you know what you're paying for and why the timeline matters. The [IICRC S500](https://www.iicrc.org/page/IICRCS500) is the industry standard that governs how water damage is assessed and dried.
+Understanding the phases helps you know what you're paying for and why the timeline matters. The [IICRC S500](https://iicrc.org/s500/) is the industry standard that governs how water damage is assessed and dried.
 
 1. **Emergency extraction.** Truck-mounted or portable extractors remove standing water. This is the fastest phase and the most important for limiting damage spread.
 2. **Moisture mapping.** Technicians use thermal imaging cameras and pin-type moisture meters to map exactly where water has migrated, including inside walls and under flooring. You can't dry what you haven't found.
