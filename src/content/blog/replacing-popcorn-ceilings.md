@@ -11,7 +11,7 @@ hero: "https://images.crew3r.com/blog/2026/10/replacing-popcorn-ceilings/hero.we
 og: "https://images.crew3r.com/blog/2026/10/replacing-popcorn-ceilings/hero.webp"
 generated_at: "2026-10-04T23:54:24Z"
 manual_override: false
-internal_links: ["/services/asbestos-abatement/", "/", "/case-studies/environmental-damage-cleanup-for-jerry-in-sioux-falls-sd/", "/contact/"]
+internal_links: ["/services/asbestos-abatement/", "/", "/blog/restoration-job-goes-right-case-study/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog", "url": "/blog/"}, {"name": "Replacing Popcorn Ceilings: A Step-by-Step Guide for Older Sioux Falls Homes"}]
 faq: [{"question": "Can I remove a popcorn ceiling myself if it contains asbestos?", "answer": "No. Once a sample tests positive for asbestos, removal needs a licensed abatement contractor working with sealed containment and negative-air equipment. Scraping it yourself, even wet, risks releasing fibers into the air you and your family breathe."}, {"question": "How much does it cost to test a popcorn ceiling for asbestos?", "answer": "Costs vary by lab and sample method, so check with your county health department or an accredited testing lab for current pricing in your area. A licensed abatement contractor can also collect and submit the sample as part of an inspection visit."}, {"question": "Is it cheaper to cover a popcorn ceiling than remove it?", "answer": "Covering with panels, tongue-and-groove planks, or a skim coat is usually less labor-intensive than full removal, which matters most when a ceiling has tested positive for asbestos and containment-based removal adds cost. A smooth drywall replacement or texture change typically costs more because it requires full removal first."}, {"question": "Do all homes built before 1980 have asbestos popcorn ceilings?", "answer": "Not all of them. Asbestos use in popcorn texture was common but not universal before it was restricted in the late 1970s. Build date is a reason to test, not a guarantee either way, so lab testing is still the only way to know for sure."}]
 published_at: "2026-10-04"
@@ -68,6 +68,6 @@ Replacing a popcorn ceiling is messy work either way, but the asbestos question 
 
 **About Crew Restoration & Construction**
 
-Crew Restoration & Construction is an IICRC-certified company (license #3814) serving Sioux Falls, SD since 2015, led by Kyle Eberts. The crew handles asbestos abatement alongside water, fire, mold, and storm restoration and general contracting work across the Sioux Falls metro and surrounding communities. [Read how a recent environmental damage cleanup went in Sioux Falls](/case-studies/environmental-damage-cleanup-for-jerry-in-sioux-falls-sd/) for a look at the process in practice.
+Crew Restoration & Construction is an IICRC-certified company (license #3814) serving Sioux Falls, SD since 2015, led by Kyle Eberts. The crew handles asbestos abatement alongside water, fire, mold, and storm restoration and general contracting work across the Sioux Falls metro and surrounding communities. [Read how a recent environmental damage cleanup went in Sioux Falls](/blog/restoration-job-goes-right-case-study/) for a look at the process in practice.
 
 If you'd like a written scope before starting a popcorn ceiling project, [call Crew Restoration & Construction at (605) 965-2727](tel:+16059652727).

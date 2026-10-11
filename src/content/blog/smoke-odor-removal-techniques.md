@@ -79,11 +79,11 @@ For anything beyond a minor kitchen incident, the honest answer is that DIY meth
 
 ## What to Expect During Professional Smoke Remediation
 
-Timeline and disruption vary with the size of the affected area. A single room with light smoke exposure might take one to two days. A whole-home fire loss, the kind that Crew Restoration & Construction handles as part of broader [fire damage restoration](/fire-damage-restoration) work, can take a week or more, especially if structural materials need to be removed and replaced.
+Timeline and disruption vary with the size of the affected area. A single room with light smoke exposure might take one to two days. A whole-home fire loss, the kind that Crew Restoration & Construction handles as part of broader [fire damage restoration](/services/fire-damage-restoration/) work, can take a week or more, especially if structural materials need to be removed and replaced.
 
 During treatment, you'll typically need to vacate the space (particularly during ozone treatment or thermal fogging). Technicians will move or bag belongings, protect flooring, and run equipment continuously. After treatment, a final walkthrough and air quality check confirm the work is complete before you return.
 
-Insurance coverage varies. Many homeowner policies cover smoke damage remediation when the smoke resulted from a covered peril (a fire, a neighboring structure fire, etc.). A restoration company experienced in [smoke damage restoration](/smoke-damage-restoration) can document the loss in a format your adjuster can work with directly.
+Insurance coverage varies. Many homeowner policies cover smoke damage remediation when the smoke resulted from a covered peril (a fire, a neighboring structure fire, etc.). A restoration company experienced in [smoke damage restoration](/services/smoke-damage-restoration/) can document the loss in a format your adjuster can work with directly.
 
 ## If the Smell Has Come Back, or Never Fully Left
 

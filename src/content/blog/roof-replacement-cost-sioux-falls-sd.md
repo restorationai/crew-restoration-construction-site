@@ -75,7 +75,7 @@ A roof replacement moves through inspection, tear-off, deck repair, and installa
 
 ## Who should you call for a roof replacement in Sioux Falls?
 
-Start with a company that will put the inspection findings and cost breakdown in writing before any tear-off begins, especially if an insurance claim is involved. Crew Restoration & Construction handles roofing replacement across Sioux Falls and the surrounding area, including the insurance documentation piece when the damage traces back to a storm. One past job, a [storm-driven structural repair in Parker, SD](/case-studies/storm-driven-structural-repair-for-earl-in-parker-sd/), shows how that documentation and repair process plays out on an actual claim.
+Start with a company that will put the inspection findings and cost breakdown in writing before any tear-off begins, especially if an insurance claim is involved. Crew Restoration & Construction handles roofing replacement across Sioux Falls and the surrounding area, including the insurance documentation piece when the damage traces back to a storm. One past job, a [storm-driven structural repair in Parker, SD](/blog/restoration-job-goes-right-case-study/), shows how that documentation and repair process plays out on an actual claim.
 
 Getting a second opinion before signing anything is reasonable, particularly after a hailstorm when out-of-town roofing crews tend to show up canvassing neighborhoods. A legitimate local contractor will give you a written scope, not just a verbal number on the driveway.
 
