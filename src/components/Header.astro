@@ -5,13 +5,13 @@ const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
 
 <header class="bg-white text-dark-900 sticky top-0 z-50 border-b border-dark/10 shadow-md">
   <div class="container-wide flex items-center justify-between gap-3 sm:gap-6 h-20">
-    <a href="/" class="flex items-center gap-3 no-underline text-dark-900 group min-w-0">
+    <a href="/" class="flex items-center gap-3 no-underline text-dark-900 group flex-shrink-0">
       {brand.logoUrl && (
         <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-14 md:h-16 xl:h-20 w-auto max-w-[30vw] sm:max-w-[200px] md:max-w-[240px] xl:max-w-[280px] object-contain object-left group-hover:scale-105 transition-transform" width="64" height="64" loading="eager" />
       )}
     </a>
 
-    <nav class="hidden lg:flex items-center gap-6 text-[11px] font-black uppercase tracking-widest h-full">
+    <nav class="hidden lg:flex items-center gap-4 xl:gap-6 text-[11px] font-black uppercase tracking-wider xl:tracking-widest whitespace-nowrap h-full">
       <a href="/emergency/" class="text-dark-900 underline decoration-[3px] underline-offset-8 hover:text-primary-500 transition-colors py-8">Emergency</a>
       <a href="/services/" class="hover:text-primary-400 no-underline transition-colors py-8">Services</a>
       <a href="/service-areas/" class="hover:text-primary-400 no-underline transition-colors py-8">Areas</a>
