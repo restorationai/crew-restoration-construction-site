@@ -1,0 +1,44 @@
+---
+/**
+ * "Our offices" block (multi-location Build 3, 2026-10-19), shown on the
+ * /service-areas/ hub only (inside ServiceAreasHubGrid). One card for the
+ * main office (brand NAP, the call-tracking swap applies as everywhere) and
+ * one per secondary office from the `offices` collection, each linking to
+ * its /locations/{slug}/ page. Renders NOTHING when the collection is
+ * empty, so single-office sites are unchanged. Never placed on the
+ * homepage, header or footer (design change; needs Santino's OK).
+ */
+import { MapPin, Phone } from '@lucide/astro';
+import { getCollection } from 'astro:content';
+import { brand } from '~/lib/brand';
+
+const offices = (await getCollection('offices')).sort((a, b) => a.data.city.localeCompare(b.data.city));
+const mainAddress = [brand.streetAddress, brand.addressCity, `${brand.addressState} ${brand.postalCode}`.trim()]
+  .filter(Boolean)
+  .join(', ');
+---
+
+{offices.length > 0 && (
+  <section class="bg-dark-50 py-16 border-b border-dark/10">
+    <div class="container-wide">
+      <h2 class="text-2xl md:text-3xl font-black uppercase tracking-tighter text-dark-900 mb-8">Our Offices</h2>
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="flex flex-col gap-2 border border-dark/15 bg-white px-5 py-5 shadow-sm">
+          <div class="text-xs font-black uppercase tracking-widest text-primary-700">Main Office</div>
+          <div class="text-dark-900 font-black text-lg leading-tight">{brand.addressCity}, {brand.addressState}</div>
+          <div class="flex gap-2 text-sm text-dark/75"><MapPin size={16} class="text-primary-500 shrink-0 mt-0.5" /><span>{mainAddress}</span></div>
+          <a href={`tel:${brand.phoneRaw}`} class="flex gap-2 text-sm font-bold text-dark-900 no-underline"><Phone size={16} class="text-primary-500 shrink-0 mt-0.5" />{brand.phone}</a>
+        </div>
+        {offices.map((o) => (
+          <div class="flex flex-col gap-2 border border-dark/15 bg-white px-5 py-5 shadow-sm">
+            <div class="text-xs font-black uppercase tracking-widest text-primary-700">{o.data.city} Office</div>
+            <a href={`/locations/${o.data.office_slug}/`} class="text-dark-900 font-black text-lg leading-tight no-underline hover:text-primary-600">{o.data.city}, {o.data.state}</a>
+            <div class="flex gap-2 text-sm text-dark/75"><MapPin size={16} class="text-primary-500 shrink-0 mt-0.5" /><span>{o.data.street}, {o.data.city}, {o.data.state}{o.data.zip ? ` ${o.data.zip}` : ''}</span></div>
+            <a href={`tel:${o.data.phone}`} class="flex gap-2 text-sm font-bold text-dark-900 no-underline"><Phone size={16} class="text-primary-500 shrink-0 mt-0.5" />{o.data.phone_display}</a>
+            <a href={`/locations/${o.data.office_slug}/`} class="mt-1 text-xs font-black uppercase tracking-widest text-primary-700 no-underline hover:text-dark-900">{o.data.city} Office Details →</a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+)}

@@ -7,6 +7,8 @@
 import { MapPin } from '@lucide/astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { brand } from '~/lib/brand';
+// "Our offices" (multi-location Build 3): renders nothing without offices
+import OfficesBlock from '~/components/ui/OfficesBlock.astro';
 
 const all = (await getCollection('serviceAreas')) as CollectionEntry<'serviceAreas'>[];
 const areas = all.sort((a, b) => {
@@ -31,4 +33,4 @@ const areas = all.sort((a, b) => {
       ))}
     </div>
   </div>
-</section>
+</section><OfficesBlock />
