@@ -20,6 +20,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 const o = entry.data;
+(Astro.locals as Record<string, unknown>).servingOffice = o;
 const heroImage = o.hero || "/images/hero-bg.webp";
 const pageUrl = `${brand.canonicalUrl}/locations/${o.office_slug}/`;
 const fullAddress = `${o.street}, ${o.city}, ${o.state}${o.zip ? ` ${o.zip}` : ""}`;

@@ -7,6 +7,7 @@ import CaseStudies from "~/components/CaseStudies.astro";
 import InternalLinks from "~/components/InternalLinks.astro";
 import GoogleMap from "~/components/GoogleMap.astro";
 import { brand } from "~/lib/brand";
+import { officeForArea, pagePhone } from "~/lib/office";
 import { is247 } from "~/lib/dispatch";
 
 export async function getStaticPaths() {
@@ -15,6 +16,9 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
+const servingOffice = await officeForArea(entry.data.area_slug);
+if (servingOffice) (Astro.locals as Record<string, unknown>).servingOffice = servingOffice;
+const ph = pagePhone(Astro.locals);
 const { Content } = await entry.render();
 const data = entry.data;
 const heroImage = data.hero || "/images/hero-bg.webp" /* preview: switch to `${brand.imagesBase}/brand/...` at production cutover */;
@@ -72,7 +76,7 @@ const otherLocs = locations.filter((l) => l !== primaryLoc);
         <h1 class="mb-6">{data.h1}</h1>
         <p class="text-lg text-dark/85 mb-8 leading-relaxed">{data.meta_description}</p>
         <div class="flex flex-col sm:flex-row gap-4">
-          <a href={`tel:${brand.phoneRaw}`} class="btn-accent">📞 Call {brand.phone}</a>
+          <a href={`tel:${ph.phoneRaw}`} class="btn-accent">📞 Call {ph.phone}</a>
           <a href="/contact/" class="btn-outline">Get a Free Estimate</a>
         </div>
       </div>

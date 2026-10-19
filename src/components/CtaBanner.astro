@@ -6,6 +6,8 @@
 // incident, brand/hero.webp missing). Never add a decorative <img> here
 // without a build-verified src.
 import { brand } from "~/lib/brand";
+import { pagePhone } from "~/lib/office";
+const ph = pagePhone(Astro.locals);
 
 type Props = {
   heading?: string;
@@ -34,10 +36,10 @@ const {
 
     <div class="flex flex-col sm:flex-row gap-4 shrink-0">
       <a
-        href={`tel:${brand.phoneRaw}`}
+        href={`tel:${ph.phoneRaw}`}
         class={`inline-flex items-center justify-center font-bold px-8 py-3 rounded-md transition-all text-lg shadow-lg ${isSensitive ? 'bg-dark text-white hover:bg-dark-800' : 'bg-cta text-cta-fg hover:bg-cta-hover'}`}
       >
-        Call {brand.phone}
+        Call {ph.phone}
       </a>
       <a
         href="/contact/#estimate"

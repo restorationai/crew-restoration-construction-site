@@ -12,6 +12,8 @@
 // Phone stays the primary conversion path: the "fastest: call" line renders
 // above the form on both variants.
 import { brand } from "~/lib/brand";
+import { pagePhone } from "~/lib/office";
+const ph = pagePhone(Astro.locals);
 import { Phone } from "@lucide/astro";
 
 type Props = {
@@ -61,7 +63,7 @@ const {
         <p class="text-[11px] leading-snug text-white/50">Submitting this form or calling us is how you request service. If you check the SMS box above, our team will text you about your request from our business line. Message and data rates may apply; reply STOP any time to opt out.</p>
       )}
       <p data-estimate-status class="hidden m-0 rounded-md px-3 py-2.5 text-sm font-medium" role="status" aria-live="polite"></p>
-      <p class="m-0 text-center text-white/70 text-sm">Fastest: <a href={`tel:${brand.phoneRaw}`} class="font-bold text-white">call {brand.phone}</a></p>
+      <p class="m-0 text-center text-white/70 text-sm">Fastest: <a href={`tel:${ph.phoneRaw}`} class="font-bold text-white">call {ph.phone}</a></p>
     </form>
   </div>
 ) : (
@@ -79,9 +81,9 @@ const {
           </p>
         )}
         <p class="mt-4 mb-0">
-          <a href={`tel:${brand.phoneRaw}`} class="inline-flex items-center gap-2 font-bold text-white no-underline text-lg">
+          <a href={`tel:${ph.phoneRaw}`} class="inline-flex items-center gap-2 font-bold text-white no-underline text-lg">
             <Phone size={18} class="text-primary-500" />
-            Fastest: call {brand.phone}
+            Fastest: call {ph.phone}
           </a>
         </p>
       </div>
@@ -174,7 +176,7 @@ const {
             <span class="w-10 h-10 rounded-xl bg-primary-600/20 text-primary-400 flex items-center justify-center shrink-0"><Phone size={18} /></span>
             <div>
               <p class="text-white/60 text-xs font-bold uppercase tracking-wider mb-0.5">24/7 Emergency Response</p>
-              <a href={`tel:${brand.phoneRaw}`} class="text-xl font-black text-white no-underline">{brand.phone}</a>
+              <a href={`tel:${ph.phoneRaw}`} class="text-xl font-black text-white no-underline">{ph.phone}</a>
             </div>
           </div>
           <div class="flex items-start gap-3">
@@ -201,7 +203,7 @@ const {
             ))}
           </ul>
         )}
-        <a href={`tel:${brand.phoneRaw}`} class="mt-7 flex items-center justify-center w-full rounded-xl bg-white text-dark-950 font-black uppercase tracking-wide py-3.5 no-underline hover:bg-white/90 transition-colors">Call Now</a>
+        <a href={`tel:${ph.phoneRaw}`} class="mt-7 flex items-center justify-center w-full rounded-xl bg-white text-dark-950 font-black uppercase tracking-wide py-3.5 no-underline hover:bg-white/90 transition-colors">Call Now</a>
       </aside>
     )}
     </div>

@@ -11,7 +11,7 @@ import { brand } from "~/lib/brand";
 import geoVideos from "~/data/geo-videos.json";
 import { serviceImage } from "~/lib/images";
 import { dispatchSentence, is247 } from "~/lib/dispatch";
-import { officeForArea } from "~/lib/office";
+import { officeForArea, pagePhone } from "~/lib/office";
 
 export async function getStaticPaths() {
   const locations = await getCollection("locations");
@@ -37,6 +37,8 @@ const heroImage = data.hero || serviceImage(data.service_slug, "/images/hero-bg.
 // {city}?"). All phrasing is data-gated in ~/lib/dispatch — 24/7 + IICRC
 // wording only appears when brand.ts actually backs it up.
 const office = await officeForArea(data.area_slug);
+if (office) (Astro.locals as Record<string, unknown>).servingOffice = office;
+const ph = pagePhone(Astro.locals);
 const dispatch = dispatchSentence(data.city, office);
 
 // Guarantee a localized response-time FAQ on every service-area page — the "how fast
@@ -98,8 +100,8 @@ const faq = [...responseFaq, ...baseFaq, ...insuranceFaq];
         <h1 class="mb-6">{data.h1}</h1>
         <p class="text-lg text-dark/85 mb-8 leading-relaxed">{data.meta_description}</p>
         <div class="flex flex-col sm:flex-row gap-4">
-          <a href={`tel:${brand.phoneRaw}`} class={sensitive ? "btn-primary" : "btn-accent"}>
-            {sensitive ? "Request Discreet Help" : `📞 Call ${brand.phone}`}
+          <a href={`tel:${ph.phoneRaw}`} class={sensitive ? "btn-primary" : "btn-accent"}>
+            {sensitive ? "Request Discreet Help" : `📞 Call ${ph.phone}`}
           </a>
           <a href={`/service-areas/${data.area_slug}/`} class="btn-outline">
             All Services in {data.city}
