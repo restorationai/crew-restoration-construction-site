@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "793fa13842270b88"
 generated_at: "2026-10-08T19:17:12.531248+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/brookings-sd/lead-paint-abatement/", "/service-areas/canton-sd/lead-paint-abatement/", "/service-areas/madison-sd/lead-paint-abatement/", "/service-areas/yankton-sd/lead-paint-abatement/"]
+internal_links: ["/services/", "/services/asbestos-abatement/", "/services/reconstruction/", "/contact/", "/service-areas/brookings-sd/lead-paint-abatement/", "/service-areas/canton-sd/lead-paint-abatement/", "/service-areas/madison-sd/lead-paint-abatement/", "/service-areas/yankton-sd/lead-paint-abatement/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Lead Paint Abatement"}]
 faq: [{"question": "Does homeowners insurance cover lead paint abatement?", "answer": "Generally no, standalone lead paint abatement isn't a covered peril under most homeowners policies unless it's tied to a covered loss like fire or water damage that requires rebuilding affected components. Crew Restoration & Construction works with all insurance carriers and handles claim documentation when abatement overlaps with a covered repair, so you have a clear paper trail either way."}, {"question": "How do you test for lead paint before starting work?", "answer": "Testing is done with XRF surface analysis, lab-analyzed paint chip sampling, or both, depending on the components involved. Results tell us the actual lead concentration in each layer of paint so the abatement scope is based on data, not the general age of the house."}, {"question": "What's the difference between lead paint removal and encapsulation?", "answer": "Removal physically takes the painted material out, through stripping, sanding with HEPA-attached tools, or replacing the component entirely, like a window or door. Encapsulation seals the lead paint in place with a specialized coating rated to permanently contain it, which can be the right call for surfaces that don't need to come out but still need the hazard eliminated."}, {"question": "Why can't a regular painting contractor just sand down old paint and repaint over it?", "answer": "Dry sanding or scraping lead-based paint releases fine dust that settles into carpet, HVAC systems, and nearby rooms, creating a hazard well beyond the immediate work area. Lead-safe renovation work practices require wet methods, HEPA filtration, and sealed containment specifically to prevent that kind of contamination."}, {"question": "How long does a lead paint abatement project typically take?", "answer": "A single room with a handful of painted components, like windowsills and trim, usually takes a few days from containment setup through clearance cleanup. A whole-house interior scope or exterior siding project takes longer, and the written scope of work we provide after testing will lay out a realistic timeline for your specific property."}]
 service_slug: "lead-paint-abatement"
@@ -27,7 +27,7 @@ Abatement is different from simply painting over old layers. It means permanentl
 
 1. **Lead paint testing** - surface testing and, where needed, paint chip sampling to confirm which components contain lead and at what concentration, so the scope of work is based on data instead of assumption.
 2. **Containment setup** - isolating the work area with sealed poly barriers, negative air pressure, and HEPA filtration to keep lead dust from spreading to adjacent rooms or outside the structure.
-3. **Lead-safe removal or encapsulation** - using wet methods, HEPA-attached sanders, and specified encapsulants to either remove painted components or seal them permanently, following lead-safe renovation work practices rather than dry sanding or open-flame burning, which are prohibited for this exact reason.
+3. **Removal or encapsulation with lead-safe work practices** - using wet methods, HEPA-attached sanders, and specified encapsulants to either remove painted components or seal them permanently, following lead-safe renovation work practices rather than dry sanding or open-flame burning, which are prohibited for this exact reason.
 4. **HEPA cleanup and clearance** - HEPA vacuuming of all surfaces, wet wiping, and a visual clearance check before containment comes down, confirming no paint chips or dust residue remain in the work area.
 5. **Waste handling and documentation** - lead-contaminated debris is bagged and disposed of according to state waste regulations, with documentation provided for your records or for a real estate closing.
 
@@ -43,7 +43,7 @@ Costs vary widely depending on how many components are involved, whether the app
 |---|---|
 | Single room, trim and windowsills only | $1,200 - $3,000 |
 | Whole room, walls and trim, encapsulation | $2,500 - $6,000 |
-| Window replacement (per unit, lead-safe removal) | $600 - $1,500 |
+| Window replacement (per unit, removal with lead-safe work practices) | $600 - $1,500 |
 | Whole-house interior abatement | $10,000 - $30,000+ |
 | Exterior siding or trim abatement | $4,000 - $15,000 |
 
