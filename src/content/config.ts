@@ -151,6 +151,7 @@ const offices = defineCollection({
     nearby_areas: z
       .array(z.object({ slug: z.string(), city: z.string(), state: z.string(), miles: z.number() }))
       .default([]),
+    served_area_slugs: z.array(z.string()).default([]),
     internal_links: internalLinks,
     breadcrumb: breadcrumb.optional(),
     faq: z.array(faqItem).default([]),

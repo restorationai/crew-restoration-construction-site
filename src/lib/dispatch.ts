@@ -22,7 +22,20 @@ export function isHqCity(city: string): boolean {
 // The dispatch sentence — repeated verbatim on-page (DispatchCallout) and in
 // the LocalBusiness schema description so engines see one consistent claim.
 // The 60-minute figure matches the emergency-page standard claim.
-export function dispatchSentence(city: string): string {
+// `office` = the SECONDARY office that serves this city (~/lib/office): its
+// cities are dispatched from that office, never from the main headquarters
+// (Crew 10-19: Sioux City pages said "60 minutes from our Sioux Falls
+// headquarters", 85 miles away).
+export type ServingOffice = { city: string; state: string } | null | undefined;
+
+export function dispatchSentence(city: string, office?: ServingOffice): string {
+  if (office) {
+    const here = String(city).trim().toLowerCase() === String(office.city).trim().toLowerCase();
+    const from = here ? `our office right here in ${city}` : `our ${office.city}, ${office.state} office`;
+    return is247
+      ? `Our ${crewLabel} are dispatched from ${from} and are typically on-site in ${city} within 60 minutes of your call.`
+      : `Our ${crewLabel} work out of ${from} and take on projects across ${city}.`;
+  }
   const hq = isHqCity(city);
   if (is247) {
     return hq

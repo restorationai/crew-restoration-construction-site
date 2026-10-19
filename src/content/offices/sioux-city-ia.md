@@ -28,10 +28,11 @@ main_city: "Sioux Falls"
 main_state: "SD"
 services: ["fire-damage-restoration", "mold-remediation", "roofing", "water-damage-restoration", "sewage-cleanup", "storm-damage-restoration", "asbestos-abatement", "basement-flooding-cleanup", "biohazard-cleanup", "burst-pipe-repair", "ceiling-water-damage-repair", "commercial-restoration", "contents-restoration", "deck-construction", "emergency-board-up-tarping", "emergency-water-removal", "excavations", "flood-damage-restoration", "foundation-installation", "general-contracting", "industrial-restoration", "large-loss-response", "lead-paint-abatement", "mold-inspection-testing", "post-construction-cleaning", "reconstruction", "siding-gutters", "smoke-damage-restoration", "trauma-scene-cleanup", "water-heater-flood-cleanup", "water-leak-detection"]
 nearby_areas: [{"slug": "dakota-dunes-sd", "city": "Dakota Dunes", "state": "SD", "miles": 4.8}, {"slug": "north-sioux-city-sd", "city": "North Sioux City", "state": "SD", "miles": 6.1}, {"slug": "hinton-ia", "city": "Hinton", "state": "IA", "miles": 10.0}, {"slug": "merrill-ia", "city": "Merrill", "state": "IA", "miles": 17.1}, {"slug": "elk-point-sd", "city": "Elk Point", "state": "SD", "miles": 19.6}, {"slug": "kingsley-ia", "city": "Kingsley", "state": "IA", "miles": 22.4}, {"slug": "le-mars-ia", "city": "Le Mars", "state": "IA", "miles": 22.6}, {"slug": "akron-ia", "city": "Akron", "state": "IA", "miles": 24.4}]
+served_area_slugs: ["sioux-city-ia", "south-sioux-city-ne", "le-mars-ia", "sergeant-bluff-ia", "dakota-dunes-sd", "north-sioux-city-sd", "dakota-city-ne", "elk-point-sd", "moville-ia", "akron-ia", "kingsley-ia", "wakefield-ne", "emerson-ne", "lawton-ia", "walthill-ne", "merrill-ia", "sloan-ia", "hinton-ia", "winnebago-ne", "whiting-ia"]
 internal_links: []
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sioux City, IA Office"}]
 faq: []
-generated_at: "2026-10-19T19:02:19.208813+00:00"
+generated_at: "2026-10-19T19:50:43.937661+00:00"
 ---
 This is the Sioux City, IA office of Crew Restoration & Construction, doing business here as Crew Restoration & Construction - Roofing, Water, Mold & Fire Damage Restoration. You can find us at 4700 Gordon Dr, Ste 102, Sioux City, IA 51106, and the office's direct line is [(712) 717-5283](tel:+17127175283).
 

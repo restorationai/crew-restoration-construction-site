@@ -11,6 +11,7 @@ import { brand } from "~/lib/brand";
 import geoVideos from "~/data/geo-videos.json";
 import { serviceImage } from "~/lib/images";
 import { dispatchSentence, is247 } from "~/lib/dispatch";
+import { officeForArea } from "~/lib/office";
 
 export async function getStaticPaths() {
   const locations = await getCollection("locations");
@@ -35,7 +36,8 @@ const heroImage = data.hero || serviceImage(data.service_slug, "/images/hero-bg.
 // teardown: one consistent sentence AI engines can cite for "who serves
 // {city}?"). All phrasing is data-gated in ~/lib/dispatch — 24/7 + IICRC
 // wording only appears when brand.ts actually backs it up.
-const dispatch = dispatchSentence(data.city);
+const office = await officeForArea(data.area_slug);
+const dispatch = dispatchSentence(data.city, office);
 
 // Guarantee a localized response-time FAQ on every service-area page — the "how fast
 // can you arrive in {city}?" question people actually ask. Visible + folded into the
@@ -119,7 +121,7 @@ const faq = [...responseFaq, ...baseFaq, ...insuranceFaq];
     </div>
   </section>
 
-  <GbpCityProof city={data.city} />
+  <GbpCityProof city={data.city} office={office} />
 
   <GoogleMap city={data.city} state={data.state} service={data.service_display} />
 
@@ -145,8 +147,8 @@ const faq = [...responseFaq, ...baseFaq, ...insuranceFaq];
   <CtaBanner
     heading={is247 ? `${data.service_display} response in ${data.city}` : `${data.service_display} in ${data.city}`}
     subheading={is247
-      ? `Most ${data.city} calls see a technician on-site within 60 minutes from our ${brand.primaryCity} headquarters.`
-      : `Our crews are based in ${brand.primaryCity}, ${brand.primaryState} and take on projects across ${data.city}. Call for a free estimate.`}
+      ? `Most ${data.city} calls see a technician on-site within 60 minutes from our ${office ? `${office.city} office` : `${brand.primaryCity} headquarters`}.`
+      : `Our crews are based in ${office ? `${office.city}, ${office.state}` : `${brand.primaryCity}, ${brand.primaryState}`} and take on projects across ${data.city}. Call for a free estimate.`}
   />
 
   <InternalLinks paths={data.internal_links} heading="Nearby & Related" eyebrow="More Coverage" />

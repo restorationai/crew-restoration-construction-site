@@ -8,15 +8,17 @@ import { brand } from "~/lib/brand";
 import { cityHash, isHqCity } from "~/lib/dispatch";
 import { Star } from "@lucide/astro";
 
-type Props = { city: string };
-const { city } = Astro.props;
+type Props = { city: string; office?: { city: string } | null };
+const { city, office } = Astro.props;
 
 const rating = String(brand.gbpRatingValue || "");
 const count = String(brand.gbpReviewCount || "");
 const hasRating = rating !== "" && count !== "";
 const reviews = brand.gbpReviews || [];
 const review = hasRating && reviews.length > 0 ? reviews[cityHash(city) % reviews.length] : undefined;
-const heading = isHqCity(city)
+const heading = office
+  ? `Serving ${city} from our ${office.city} office · ★ ${rating} · ${count} Google reviews`
+  : isHqCity(city)
   ? `Headquartered right here in ${city} — ★ ${rating} · ${count} Google reviews`
   : `Serving ${city} from our ${brand.primaryCity} headquarters — ★ ${rating} · ${count} Google reviews`;
 const reviewsUrl = brand.placeId
