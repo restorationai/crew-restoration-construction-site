@@ -40,7 +40,7 @@ If you are a California resident, you have rights under the California Consumer 
 
 ### Privacy Questions
 
-Email **estimates@crewthatcares.com** or call **(605) 965-2727**. Our mailing address is 3503 South Norton Avenue, Sioux Falls, SD 57110.
+Email **estimates@crewthatcares.com** or call **(605) 965-2727**. Our mailing address is 3503 South Norton Avenue, Sioux Falls, SD 57105.
 
 ---
 
@@ -84,4 +84,4 @@ Reach us at **estimates@crewthatcares.com** or **(605) 965-2727**.
 
 Crew Restoration & Construction is committed to making this website usable by everyone, including people who rely on assistive technologies. We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.1 at the AA conformance level. The site is built to be compatible with screen readers and keyboard navigation, and we work to ensure that images carry meaningful alternative text, color contrast meets minimum ratios, and forms are properly labeled.
 
-Accessibility is an ongoing effort, not a one-time checkbox. If you encounter a barrier, a page that doesn't load correctly with a screen reader, a form you can't complete, or any other accessibility issue, please let us know. Contact us at **estimates@crewthatcares.com** or **(605) 965-2727** and describe the problem as specifically as you can. We will work to address reported issues within a reasonable timeframe. You may also reach us by mail at 3503 South Norton Avenue, Sioux Falls, SD 57110.
+Accessibility is an ongoing effort, not a one-time checkbox. If you encounter a barrier, a page that doesn't load correctly with a screen reader, a form you can't complete, or any other accessibility issue, please let us know. Contact us at **estimates@crewthatcares.com** or **(605) 965-2727** and describe the problem as specifically as you can. We will work to address reported issues within a reasonable timeframe. You may also reach us by mail at 3503 South Norton Avenue, Sioux Falls, SD 57105.

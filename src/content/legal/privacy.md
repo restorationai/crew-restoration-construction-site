@@ -48,4 +48,4 @@ You may request a copy of the personal information we hold about you, ask us to 
 
 ## Contact Us About Privacy
 
-If you have questions about this policy or want to submit a data request, contact us at **estimates@crewthatcares.com** or call **(605) 965-2727**. Our office is located at 3503 South Norton Avenue, Sioux Falls, SD 57110. We'll respond to privacy inquiries within 10 business days.
+If you have questions about this policy or want to submit a data request, contact us at **estimates@crewthatcares.com** or call **(605) 965-2727**. Our office is located at 3503 South Norton Avenue, Sioux Falls, SD 57105. We'll respond to privacy inquiries within 10 business days.

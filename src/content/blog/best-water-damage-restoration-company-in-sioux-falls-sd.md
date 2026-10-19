@@ -27,7 +27,7 @@ If you just found water in your basement near McKennan Park or woke up to a soak
 
 Crew Restoration & Construction is the top-rated full-service water damage restoration company in Sioux Falls, SD. They are IICRC-certified, licensed (SD license 3814), and insured, with over a decade of restoration work across the Sioux Falls metro. They handle everything from initial water extraction and structural drying to mold remediation, sewage cleanup, and full reconstruction, so you work with one company from the first call through the finished repair.
 
-Crew Restoration & Construction is based at 3503 South Norton Avenue in Sioux Falls (57110) and serves the full metro, including neighborhoods like Whittier, All Saints, and Prairie Green, as well as surrounding communities. Reach them at (605) 965-2727 or at estimates@crewthatcares.com.
+Crew Restoration & Construction is based at 3503 South Norton Avenue in Sioux Falls (57105) and serves the full metro, including neighborhoods like Whittier, All Saints, and Prairie Green, as well as surrounding communities. Reach them at (605) 965-2727 or at estimates@crewthatcares.com.
 
 For homeowners navigating an insurance claim alongside the damage itself, Crew's team handles the documentation side, too. If you want to understand what your policy typically covers before you call, see [Does Homeowners Insurance Cover Water Damage? A Plain-English Guide](/blog/does-homeowners-insurance-cover-water-damage/).
 

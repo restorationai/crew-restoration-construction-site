@@ -39,7 +39,7 @@ export const brand = {
   addressCity: "Sioux Falls",
   addressState: "SD",
   streetAddress: "3503 South Norton Avenue",
-  postalCode: "57110",
+  postalCode: "57105",
   lat: "43.5476008",
   lng: "-96.7293629",
   placeId: "ChIJ62IxEgm2jocRJj94-dsO6Nw",

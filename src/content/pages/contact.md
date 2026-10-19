@@ -27,4 +27,4 @@ If you're planning ahead, a post-storm inspection, a reconstruction bid, or ques
 
 ## Where we're located
 
-Crew Restoration & Construction is based at **3503 South Norton Avenue, Sioux Falls, SD 57110**, positioned to serve properties across the Sioux Falls metro and the surrounding region. We regularly work in Brandon, Tea, Harrisburg, Dell Rapids, and Canton, as well as communities further out across southeastern South Dakota. If you're unsure whether you're in our service area, just call, we'd rather tell you directly than have you waste time guessing.
+Crew Restoration & Construction is based at **3503 South Norton Avenue, Sioux Falls, SD 57105**, positioned to serve properties across the Sioux Falls metro and the surrounding region. We regularly work in Brandon, Tea, Harrisburg, Dell Rapids, and Canton, as well as communities further out across southeastern South Dakota. If you're unsure whether you're in our service area, just call, we'd rather tell you directly than have you waste time guessing.
