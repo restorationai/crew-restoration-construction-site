@@ -31,13 +31,15 @@ nearby_areas: [{"slug": "dakota-dunes-sd", "city": "Dakota Dunes", "state": "SD"
 internal_links: []
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sioux City, IA Office"}]
 faq: []
-generated_at: "2026-10-19T15:38:22.617812+00:00"
+generated_at: "2026-10-19T19:02:19.208813+00:00"
 ---
 This is the Sioux City, IA office of Crew Restoration & Construction, doing business here as Crew Restoration & Construction - Roofing, Water, Mold & Fire Damage Restoration. You can find us at 4700 Gordon Dr, Ste 102, Sioux City, IA 51106, and the office's direct line is [(712) 717-5283](tel:+17127175283).
 
 The Sioux City line is answered 24 hours a day, 7 days a week, so a call about water, fire, mold or storm damage reaches our team at any hour.
 
 From this office we handle fire damage restoration, mold remediation, roofing installation and replacement, and water damage restoration, along with the other services listed on this page. Each one has its own page with the details.
+
+See our [Sioux City, IA service area page](/service-areas/sioux-city-ia/) for the work we do across the city.
 
 Nearby communities we serve include [Dakota Dunes, SD](/service-areas/dakota-dunes-sd/), [North Sioux City, SD](/service-areas/north-sioux-city-sd/), [Hinton, IA](/service-areas/hinton-ia/), [Merrill, IA](/service-areas/merrill-ia/), [Elk Point, SD](/service-areas/elk-point-sd/), and [Kingsley, IA](/service-areas/kingsley-ia/).
 
