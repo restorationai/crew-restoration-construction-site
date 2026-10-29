@@ -65,7 +65,7 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "644",
+  gbpReviewCount: "631",
   gbpReviews: [
     { author: "Sally", rating: 5, text: "Thanks to Terra and Eric for getting a spill out of my carpet. They were very diligent to remove the spot and the carpet around. A great team!!", when: "October 2026" },
     { author: "Tim", rating: 5, text: "Vic and Tom did an awesome job helping me get my mom‘s house cleaned up and ready to sell. She was a heavy smoker and they had the expertise to get the odor out, cover and seal the stains and make it ready for a new family.", when: "October 2026" },
