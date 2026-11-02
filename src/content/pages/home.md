@@ -21,11 +21,11 @@ When water is soaking through your drywall, smoke smell has settled into every r
 
 **Water damage restoration**, Whether a pipe burst at 2 a.m. or a slow leak finally gave out under your kitchen sink, standing water can reach the subfloor and wall cavities faster than most people expect; we extract, dry, and document everything.
 
-**Fire and smoke damage restoration**, Smoke residue is acidic and keeps damaging surfaces long after the flames are out, so cleanup and deodorization need to start quickly, we assess structural damage, remove charred material, and treat affected areas so the odor doesn't come back.
+**Fire and smoke damage restoration**, Smoke residue is acidic and keeps damaging surfaces long after the flames are out, so cleanup and deodorization need to start quickly, we assess structural damage, remove charred material, and treat affected areas so the odor doesn't come back. If you are searching for [fire damage restoration near me](/services/fire-damage-restoration/) in the Sioux Falls area, that page walks through the full process.
 
 **Mold remediation**, In South Dakota's humid summers, mold can begin colonizing a wet surface within 24 to 48 hours; we locate the moisture source, contain the affected area, and remove mold-damaged material safely.
 
-**Storm damage and reconstruction**, Sioux Falls sees its share of hail, high winds, and heavy snow loads; when a storm tears through a roof or pushes water into a basement, we handle both the immediate mitigation and the rebuild so you're not coordinating two separate contractors.
+**Storm damage and reconstruction**, Sioux Falls sees its share of hail, high winds, and heavy snow loads; when a storm tears through a roof or pushes water into a basement, we handle both the immediate mitigation and the rebuild so you're not coordinating two separate contractors. When a basement or lower level takes on water, see our [flood damage restoration near me](/services/flood-damage-restoration/) page for how we extract, dry and rebuild.
 
 ## Why homeowners and property managers call us
 
