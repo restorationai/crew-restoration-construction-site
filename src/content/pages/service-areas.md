@@ -1,6 +1,6 @@
 ---
 archetype: "service-areas-hub"
-title: "Service Areas | Crew Restoration & Construction Restoration"
+title: "Service Areas | Crew Restoration & Construction"
 h1: "Areas We Serve"
 meta_description: "Crew Restoration & Construction provides restoration services across Sioux Falls and the surrounding region. Find your city."
 primary_keyword: "crew restoration & construction service areas"
