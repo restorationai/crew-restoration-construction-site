@@ -67,12 +67,12 @@ export const brand = {
   gbpRatingValue: "4.9",
   gbpReviewCount: "632",
   gbpReviews: [
-    { author: "Justin", rating: 5, text: "My family had a great experience working with Zach ensuring all our restoration needs were handled properly. Highly recommend!", when: "November 2026" },
     { author: "Sally", rating: 5, text: "Thanks to Terra and Eric for getting a spill out of my carpet. They were very diligent to remove the spot and the carpet around. A great team!!", when: "October 2026" },
     { author: "Tim", rating: 5, text: "Vic and Tom did an awesome job helping me get my mom‘s house cleaned up and ready to sell. She was a heavy smoker and they had the expertise to get the odor out, cover and seal the stains and make it ready for a new family.", when: "October 2026" },
     { author: "Randy", rating: 5, text: "The people at Crew really do care. Zach Wiseman is always friendly and smiling. He has such a positive attitude and always is brightening someone's day. Keep up the good work Zach!", when: "October 2026" },
     { author: "Jake", rating: 5, text: "Zach is the man. Goes above and beyond to help in every situation!!", when: "October 2026" },
     { author: "Andrew", rating: 5, text: "Zach is the best! Professional and very knowledgeable!", when: "October 2026" },
+    { author: "D", rating: 5, text: "Highly recommend! Zach is professional and has great communication!", when: "October 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Sioux Falls, SD.",
   ctaLabel: "24/7 Emergency Line",
