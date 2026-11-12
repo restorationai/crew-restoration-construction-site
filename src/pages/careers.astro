@@ -1,0 +1,226 @@
+---
+// Careers (Kyle + Brandy 2026-11-07): job openings, an application form
+// that posts to /api/apply (emails careers.applyEmail; never /api/estimate,
+// which files CRM leads and texts the owner), and text to apply. Openings
+// live in src/data/careers.ts; each renders a JobPosting JSON-LD block.
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import { brand } from "~/lib/brand";
+import { careers, jobPostingLd } from "~/data/careers";
+import { Briefcase, MapPin, Clock, DollarSign, CheckCircle2, GraduationCap, TrendingUp, MessageSquare, Mail } from "@lucide/astro";
+
+const { openings, applyEmail, textNumber, textNumberRaw } = careers;
+const jobLd = jobPostingLd();
+
+const title = `Careers | Now Hiring in ${brand.addressCity} | ${brand.displayName}`;
+const meta = `Join the team at ${brand.displayName} in ${brand.addressCity}, ${brand.addressState}. Paid training, IICRC certifications and a real path from Apprentice to Lead. Apply online or text ${textNumber}.`;
+const inputCls = "w-full min-w-0 rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none";
+const labelCls = "grid gap-1.5 text-sm font-bold uppercase tracking-widest text-white/70";
+---
+
+<BaseLayout title={title} meta_description={meta} breadcrumb={[{ name: "Home", url: "/" }, { name: "Careers" }]}>
+  <Fragment set:html={jobLd} />
+
+  <section class="bg-dark text-white">
+    <div class="container-wide max-w-5xl mx-auto py-14 md:py-16 px-4">
+      <p class="text-sm font-black uppercase tracking-widest text-primary-400 mb-3">Now Hiring in {brand.addressCity}</p>
+      <h1 class="text-white">Careers at CREW</h1>
+      <p class="text-lg text-white/80 mt-4 mb-8 max-w-3xl">
+        We hire for character and teach the trade. Every new team member gets paid
+        training, paid IICRC certifications and a clear path to grow, from
+        Apprentice to Specialist to Lead.
+      </p>
+      <div class="flex flex-wrap gap-3">
+        <a href="#apply" class="btn-primary px-6 py-3 font-black no-underline">Apply Online</a>
+        <a href={`sms:${textNumberRaw}`} class="inline-flex items-center gap-2 rounded-md border border-white/30 px-6 py-3 font-black text-white no-underline hover:bg-white/10">
+          <MessageSquare size={18} /> Text to Apply: {textNumber}
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white py-16 border-t border-dark/10">
+    <div class="container-wide max-w-5xl mx-auto px-4">
+      <h2 class="!mt-0">Open Positions</h2>
+      {openings.map((o) => (
+        <article id={o.slug} class="scroll-mt-28 rounded-2xl border border-dark/15 p-6 md:p-8 mt-6">
+          <div class="flex items-center gap-3 mb-3">
+            <Briefcase size={22} class="text-primary-600 shrink-0" />
+            <h3 class="!mt-0 !mb-0 text-2xl">{o.title}</h3>
+          </div>
+          <p class="flex flex-wrap gap-x-5 gap-y-1 text-sm font-bold uppercase tracking-wider text-dark/60 mb-4">
+            <span class="inline-flex items-center gap-1.5"><MapPin size={15} /> {o.location}</span>
+            <span class="inline-flex items-center gap-1.5"><Clock size={15} /> {o.type}</span>
+            <span>{o.level}</span>
+          </p>
+          <p class="text-lg text-dark/80">{o.summary}</p>
+
+          <div class="grid md:grid-cols-3 gap-6 mt-6">
+            <div>
+              <h4 class="!mt-0 flex items-center gap-2 text-lg"><DollarSign size={18} class="text-primary-600" /> Pay</h4>
+              <ul class="list-none pl-0 space-y-2">
+                {o.pay.map((x) => <li class="flex gap-2"><CheckCircle2 size={18} class="text-primary-600 shrink-0 mt-0.5" /><span>{x}</span></li>)}
+              </ul>
+            </div>
+            <div>
+              <h4 class="!mt-0 flex items-center gap-2 text-lg"><CheckCircle2 size={18} class="text-primary-600" /> Requirements</h4>
+              <ul class="list-none pl-0 space-y-2">
+                {o.requirements.map((x) => <li class="flex gap-2"><CheckCircle2 size={18} class="text-primary-600 shrink-0 mt-0.5" /><span>{x}</span></li>)}
+              </ul>
+            </div>
+            <div>
+              <h4 class="!mt-0 flex items-center gap-2 text-lg"><GraduationCap size={18} class="text-primary-600" /> Benefits</h4>
+              <ul class="list-none pl-0 space-y-2">
+                {o.benefits.map((x) => <li class="flex gap-2"><CheckCircle2 size={18} class="text-primary-600 shrink-0 mt-0.5" /><span>{x}</span></li>)}
+              </ul>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap gap-3 mt-6">
+            <a href="#apply" data-position={o.title} class="btn-primary px-6 py-3 font-black no-underline">Apply for This Job</a>
+            <a href={`sms:${textNumberRaw}`} class="inline-flex items-center gap-2 rounded-md border border-dark/25 px-6 py-3 font-black text-dark-900 no-underline hover:bg-dark/5">
+              <MessageSquare size={18} /> Text {textNumber}
+            </a>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="bg-dark-50 py-16 border-t border-dark/10">
+    <div class="container-wide max-w-5xl mx-auto px-4">
+      <h2 class="!mt-0">Working at CREW</h2>
+      <div class="grid md:grid-cols-2 gap-6 mt-6">
+        <div class="rounded-2xl bg-white border border-dark/10 p-6">
+          <div class="flex items-center gap-3 mb-2">
+            <GraduationCap size={22} class="text-primary-600" />
+            <h3 class="!mt-0 !mb-0 text-xl">Paid Training and Certifications</h3>
+          </div>
+          <p class="text-dark/80 mb-0">
+            No experience needed. You learn on the job next to a lead technician,
+            and we pay for your IICRC certifications, the industry standard for
+            water, fire and mold restoration. PPE and uniforms are provided.
+          </p>
+        </div>
+        <div class="rounded-2xl bg-white border border-dark/10 p-6">
+          <div class="flex items-center gap-3 mb-2">
+            <TrendingUp size={22} class="text-primary-600" />
+            <h3 class="!mt-0 !mb-0 text-xl">A Real Path to Grow</h3>
+          </div>
+          <p class="text-dark/80 mb-0">
+            We promote from within. Start as an Apprentice, move up to Specialist,
+            then Lead. Overtime, on-call bonuses and monthly team incentive pay
+            reward the work you put in.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="apply" class="scroll-mt-24 bg-dark-50 pb-20">
+    <div class="container-wide px-4">
+      <div class="mx-auto max-w-3xl bg-dark-900 rounded-2xl shadow-xl border border-dark/10 p-8 sm:p-10">
+        <div class="text-center mb-8">
+          <h2 class="font-black uppercase tracking-tighter text-white text-3xl md:text-4xl mb-3 !mt-0">Apply Now</h2>
+          <p class="text-white/75 text-lg mb-0">
+            Send us your info and we'll be in touch. Prefer to text? Text
+            {" "}<a href={`sms:${textNumberRaw}`} class="font-bold text-white">{textNumber}</a>{" "}
+            or email <a href={`mailto:${applyEmail}`} class="font-bold text-white">{applyEmail}</a>.
+          </p>
+        </div>
+        <form method="post" action="/api/apply" data-apply-form data-text={textNumber} novalidate class="grid gap-4">
+          <div class="grid gap-4 sm:grid-cols-2">
+            <label class={labelCls}>
+              Name *
+              <input type="text" name="name" required autocomplete="name" maxlength="120" class={inputCls} placeholder="Your name" />
+            </label>
+            <label class={labelCls}>
+              Phone *
+              <input type="tel" name="phone" required autocomplete="tel" maxlength="30" class={inputCls} placeholder="(555) 555-5555" />
+            </label>
+          </div>
+          <div class="grid gap-4 sm:grid-cols-2">
+            <label class={labelCls}>
+              Email
+              <input type="email" name="email" autocomplete="email" maxlength="160" class={inputCls} placeholder="you@example.com" />
+            </label>
+            <label class={labelCls}>
+              Position *
+              <select name="position" required class={inputCls}>
+                {openings.map((o) => <option value={o.title} class="text-dark-900">{o.title}</option>)}
+                <option value="General application" class="text-dark-900">Other / general application</option>
+              </select>
+            </label>
+          </div>
+          <label class={labelCls}>
+            A short note
+            <textarea name="note" rows="4" maxlength="2000" class={`${inputCls} resize-y`}
+              placeholder="Tell us a little about yourself and when you can start."></textarea>
+          </label>
+          {/* Honeypot + min-render-time token: same spam gates as the estimate form. */}
+          <div class="absolute -left-[9999px] top-auto w-px h-px overflow-hidden" aria-hidden="true">
+            <label>Company website <input type="text" name="company_website" tabindex="-1" autocomplete="off" /></label>
+          </div>
+          <input type="hidden" name="fets" value="" />
+          <button type="submit" class="inline-flex items-center justify-center font-bold px-6 py-4 rounded-md transition-all text-lg shadow-lg bg-primary-600 text-white hover:bg-primary-700 disabled:opacity-60 disabled:cursor-not-allowed">
+            Send My Application
+          </button>
+          <p data-apply-status class="hidden m-0 rounded-md px-4 py-3 text-base font-medium" role="status" aria-live="polite"></p>
+          <p class="m-0 text-center text-white/70 text-sm inline-flex items-center justify-center gap-2 w-full">
+            <Mail size={15} /> Applications go straight to our hiring team.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script is:inline>
+    (function () {
+      // "Apply for This Job" preselects that position in the form.
+      document.querySelectorAll("a[data-position]").forEach(function (a) {
+        a.addEventListener("click", function () {
+          var sel = document.querySelector('[data-apply-form] select[name="position"]');
+          if (sel) sel.value = a.getAttribute("data-position");
+        });
+      });
+      var form = document.querySelector("[data-apply-form]");
+      if (!form) return;
+      var ts = form.querySelector('input[name="fets"]');
+      if (ts) ts.value = String(Date.now());
+      var status = form.querySelector("[data-apply-status]");
+      var btn = form.querySelector('button[type="submit"]');
+      function show(msg, ok) {
+        status.textContent = msg;
+        status.className = "m-0 rounded-md px-4 py-3 text-base font-medium " +
+          (ok ? "bg-emerald-500/15 text-emerald-300 border border-emerald-400/30"
+              : "bg-red-500/15 text-red-300 border border-red-400/30");
+      }
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var data = {};
+        new FormData(form).forEach(function (v, k) { data[k] = v; });
+        if (!data.name || !data.phone) {
+          show("Please add your name and phone number so we can reach you.", false);
+          return;
+        }
+        btn.disabled = true; btn.textContent = "Sending...";
+        fetch("/api/apply", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        })
+          .then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { return r.ok && j.ok !== false; }); })
+          .then(function (ok) {
+            if (ok) {
+              form.reset();
+              show("Thanks! Your application is in. Our hiring team will reach out soon.", true);
+              try { (window.dataLayer = window.dataLayer || []).push({ event: "job_application_submit" }); } catch (err) {}
+            } else {
+              show("Something went wrong sending your application. Please text " + form.dataset.text + " instead.", false);
+            }
+          })
+          .catch(function () { show("Something went wrong sending your application. Please text " + form.dataset.text + " instead.", false); })
+          .finally(function () { btn.disabled = false; btn.textContent = "Send My Application"; });
+      });
+    })();
+  </script>
+</BaseLayout>

@@ -25,8 +25,6 @@
 /mold-remediation.html/ /services/mold-remediation/ 301
 /customize-your-closet-space / 301
 /customize-your-closet-space/ / 301
-/careers /about/ 301
-/careers/ /about/ 301
 /how-to-safely-use-a-roof-rake /services/roofing/ 301
 /how-to-safely-use-a-roof-rake/ /services/roofing/ 301
 /restoration-services/water-damage /services/water-damage-restoration/ 301
@@ -449,8 +447,8 @@
 /sinancing-services/ / 301
 /locations/home-remodeling-hartford-sd /service-areas/hartford-sd/general-contracting/ 301
 /locations/home-remodeling-hartford-sd/ /service-areas/hartford-sd/general-contracting/ 301
-/careers-hiring-now /about/ 301
-/careers-hiring-now/ /about/ 301
+/careers-hiring-now /careers/ 301
+/careers-hiring-now/ /careers/ 301
 /lester-ia /service-areas/rock-rapids-ia/ 301
 /lester-ia/ /service-areas/rock-rapids-ia/ 301
 /job-completed-for-brian-hansen-brandon-water-damage /case-studies/water-damage-restoration-for-brian-in-brandon-sd/ 301

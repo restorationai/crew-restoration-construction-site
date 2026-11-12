@@ -1,0 +1,5 @@
+# Per-site design edits a --refresh-design must not flatten
+# Kyle 2026-11-07: Careers page linked in the main menu, footer and homepage
+src/components/Header.astro
+src/components/Footer.astro
+src/pages/index.astro
