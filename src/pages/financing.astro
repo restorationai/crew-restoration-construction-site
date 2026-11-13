@@ -1,0 +1,91 @@
+---
+// Financing (Kyle 2026-11-13): the 6 payment options, the 5% same day
+// discount and the price assurance guarantee from Kyle's PDF. Content lives
+// in src/data/financing.ts, word for word from the sheet.
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import { brand } from "~/lib/brand";
+import { pagePhone } from "~/lib/office";
+import { paymentOptions, sameDayDiscount, priceGuarantee } from "~/data/financing";
+import { CreditCard, Landmark, CalendarClock, BadgePercent, ShieldCheck, Tag } from "@lucide/astro";
+
+const ph = pagePhone(Astro.locals);
+const title = `Financing and Payment Options | ${brand.displayName}`;
+const meta = `Six ways to pay ${brand.displayName}: check or ACH, 9 months same as cash, 5, 10 and 15 year plans, or credit card. Plus a 5% same day discount and our price assurance guarantee.`;
+const iconFor = (n: number) => (n === 1 ? Landmark : n === 6 ? CreditCard : CalendarClock);
+---
+
+<BaseLayout title={title} meta_description={meta} breadcrumb={[{ name: "Home", url: "/" }, { name: "Financing" }]}>
+  <section class="bg-dark text-white">
+    <div class="container-wide max-w-5xl mx-auto py-14 md:py-16 px-4">
+      <p class="text-sm font-black uppercase tracking-widest text-primary-400 mb-3">Financing</p>
+      <h1 class="text-white">Choose Your Payment</h1>
+      <p class="text-lg text-white/80 mt-4 mb-8 max-w-3xl">
+        Six ways to pay for your project, a 5% discount when you decide the same
+        day, and our Price Assurance Guarantee.
+      </p>
+      <div class="flex flex-wrap gap-3">
+        <a href="#payment-options" class="btn-primary px-6 py-3 font-black no-underline">See Payment Options</a>
+        <a href={`tel:${ph.phoneRaw}`} class="inline-flex items-center gap-2 rounded-md border border-white/30 px-6 py-3 font-black text-white no-underline hover:bg-white/10">
+          Call {ph.phone}
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="payment-options" class="scroll-mt-24 bg-white py-16 border-t border-dark/10">
+    <div class="container-wide max-w-5xl mx-auto px-4">
+      <h2 class="!mt-0">6 Payment Options</h2>
+      <div class="grid md:grid-cols-2 gap-6 mt-6">
+        {paymentOptions.map((o) => {
+          const Icon = iconFor(o.n);
+          return (
+            <article class="relative rounded-2xl border border-dark/15 p-6 flex flex-col">
+              <div class="flex items-center gap-3 mb-3">
+                <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-primary-600 text-white font-black shrink-0">{o.n}</span>
+                <Icon size={22} class="text-primary-600 shrink-0" />
+                <h3 class="!mt-0 !mb-0 text-xl">{o.title}</h3>
+              </div>
+              {o.body && <p class="text-dark/80 mb-3">{o.body}</p>}
+              {o.lender && <p class="text-sm font-bold uppercase tracking-wider text-dark/60 mb-3">{o.lender}</p>}
+              {o.sale && (
+                <p class="mt-auto mb-0">
+                  <span class="inline-flex items-center gap-1.5 rounded-full bg-primary-600 text-white text-xs font-black uppercase tracking-wider px-3 py-1">
+                    <Tag size={14} /> Eligible for Sale Price
+                  </span>
+                </p>
+              )}
+            </article>
+          );
+        })}
+      </div>
+      <p class="text-dark/70 text-sm mt-6 mb-0">Financing is subject to credit approval.</p>
+    </div>
+  </section>
+
+  <section class="bg-dark-50 py-16 border-t border-dark/10">
+    <div class="container-wide max-w-5xl mx-auto px-4 grid md:grid-cols-2 gap-6">
+      <div id="same-day-discount" class="scroll-mt-24 rounded-2xl bg-white border border-dark/10 p-6 md:p-8">
+        <div class="flex items-center gap-3 mb-3">
+          <BadgePercent size={26} class="text-primary-600 shrink-0" />
+          <h2 class="!mt-0 !mb-0 text-2xl">{sameDayDiscount.title}</h2>
+        </div>
+        <p class="text-dark/80">{sameDayDiscount.body}</p>
+        <p class="text-sm text-dark/60 mb-0">{sameDayDiscount.fine}</p>
+      </div>
+      <div id="price-guarantee" class="scroll-mt-24 rounded-2xl bg-white border border-dark/10 p-6 md:p-8">
+        <div class="flex items-center gap-3 mb-3">
+          <ShieldCheck size={26} class="text-primary-600 shrink-0" />
+          <h2 class="!mt-0 !mb-0 text-2xl">{priceGuarantee.title}</h2>
+        </div>
+        <p class="text-dark/80 mb-0">{priceGuarantee.body}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-primary-600 text-white py-10">
+    <div class="container-wide max-w-5xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+      <h2 class="text-2xl md:text-3xl font-black uppercase tracking-tighter text-white !m-0">Questions About Paying for Your Project?</h2>
+      <a href={`tel:${ph.phoneRaw}`} class="shrink-0 inline-flex items-center justify-center rounded-md bg-white text-dark-900 font-black uppercase tracking-wider px-6 py-3 no-underline hover:bg-white/90">Call {ph.phone}</a>
+    </div>
+  </section>
+</BaseLayout>
