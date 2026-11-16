@@ -26,6 +26,7 @@ const archetype = data.archetype ?? entry.slug;
 // are; the form beneath it is the point of the page, so it gives up the
 // height it was spending on a 3-line h1 and lets the fields clear the fold.
 const isContact = archetype === "contact";
+const isAbout = archetype === "about";
 const heroImage = data.hero || "/images/hero-bg.webp" /* preview: switch to `${brand.imagesBase}/brand/...` at production cutover */;
 // Hub archetypes get a visual link grid above the prose; the full prose is
 // retained below it (SEO: keep all text content, the grid only ADDS
@@ -48,6 +49,26 @@ const proseHeading =
   faq={data.faq}
 >
   <!-- COMPACT HERO -->
+  {isAbout ? (
+  /* About hero (Mohsin 2026-11-16: "move the text slightly to the left so
+     it doesn't overlap the team members' faces"). The red-shirt crew photo
+     is a 3:1 panorama with faces across most of its width, so the text no
+     longer sits on top of it: beside it from 1280px (photo cropped only on
+     the empty grass side), above it below that (whole photo, no crop). */
+  <section class="relative bg-white border-b border-dark/10 overflow-hidden">
+    <div class="flex flex-col xl:flex-row xl:items-stretch">
+      <div class="relative z-10 shrink-0 xl:w-[380px] 2xl:w-[500px] px-6 md:px-10 pt-10 pb-8 md:pt-12 md:pb-10 xl:py-8 2xl:py-12 flex flex-col justify-center">
+        <div class="eyebrow">{archetype.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())}</div>
+        <h1 class="text-3xl md:text-5xl xl:text-[2.3rem] 2xl:text-5xl">{data.h1}</h1>
+        <p class="text-lg text-dark/85 mb-0 leading-relaxed max-w-xl mt-5">{data.meta_description}</p>
+      </div>
+      <div class="relative flex-1 aspect-[3/1] xl:aspect-[5/2]">
+        <img src={heroImage} alt={data.h1} class="absolute inset-0 w-full h-full object-cover object-right" loading="eager" />
+        <div class="hidden xl:block absolute inset-y-0 left-0 w-10 bg-gradient-to-r from-white to-white/0"></div>
+      </div>
+    </div>
+  </section>
+  ) : (
   <section class={`relative ${isContact ? "min-h-[200px]" : "min-h-[350px]"} flex items-center overflow-hidden bg-white border-b border-dark/10`}>
     <div class="absolute inset-0 z-0">
       <img src={heroImage} alt={data.h1} class="w-full h-full object-cover" loading="eager" />
@@ -61,6 +82,7 @@ const proseHeading =
       </div>
     </div>
   </section>
+  )}
 
   {archetype === "services-hub" && <ServicesHubGrid />}
   {archetype === "service-areas-hub" && <ServiceAreasHubGrid />}

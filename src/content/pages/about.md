@@ -3,7 +3,7 @@ archetype: "about"
 title: "About Crew Restoration & Construction | Sioux Falls Restoration Company"
 hero: "/images/work/crew-red-shirts.webp"
 h1: "About Crew Restoration & Construction"
-meta_description: "Crew Restoration & Construction has served Sioux Falls since. Meet our restoration team. Locally owned."
+meta_description: "Crew Restoration & Construction serves Sioux Falls and the surrounding region. Meet our restoration team. Locally owned."
 primary_keyword: "crew restoration & construction sioux falls"
 secondary_keywords: ["local restoration company", "iicrc certified restoration", "licensed restoration contractor"]
 search_intent: "navigational_trust"
