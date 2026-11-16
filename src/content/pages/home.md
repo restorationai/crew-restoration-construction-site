@@ -1,6 +1,7 @@
 ---
 archetype: "home"
 title: "Water, Fire, Mold & Storm Restoration in Sioux Falls, SD | Crew Restoration & Construction"
+hero: "/images/work/crew-office.webp"
 h1: "Water, Fire, Mold & Storm Restoration and Construction in Sioux Falls, SD"
 meta_description: "Crew Restoration & Construction handles water, fire, mold and storm damage restoration and construction in Sioux Falls, SD. IICRC certified. Call (605) 965-2727 now."
 primary_keyword: "water damage restoration sioux falls"

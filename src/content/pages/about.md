@@ -1,6 +1,7 @@
 ---
 archetype: "about"
 title: "About Crew Restoration & Construction | Sioux Falls Restoration Company"
+hero: "/images/work/crew-red-shirts.webp"
 h1: "About Crew Restoration & Construction"
 meta_description: "Crew Restoration & Construction has served Sioux Falls since. Meet our restoration team. Locally owned."
 primary_keyword: "crew restoration & construction sioux falls"
@@ -9,7 +10,7 @@ search_intent: "navigational_trust"
 priority: 2.5
 plan_hash: "70ae7813d11aed34"
 generated_at: "2026-07-26T07:45:43.053915+00:00"
-manual_override: false
+manual_override: true
 internal_links: ["/", "/services/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "About"}]
 faq: [{"question": "How long has Crew Restoration & Construction been in business?", "answer": "Crew Restoration & Construction has been serving the Sioux Falls area for a number of years, with a focus on water damage, fire and smoke restoration, mold remediation, and reconstruction. For specific information about the company's history, feel free to call the team directly at (605) 965-2727."}, {"question": "What areas does Crew Restoration & Construction serve?", "answer": "The primary service area is Sioux Falls, SD, along with surrounding communities throughout southeastern and central South Dakota. If you're unsure whether your location falls within the service area, call (605) 965-2727 and the team can confirm quickly."}, {"question": "Is the team certified to handle restoration work in older homes?", "answer": "Yes \u2014 the team holds certifications relevant to the restoration work performed, including considerations for older construction. Homes built before 1978 can involve materials that require specific handling protocols, and the crew is trained accordingly. If you have questions about a specific property, it's worth discussing the details before work begins."}]

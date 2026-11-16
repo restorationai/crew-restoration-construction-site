@@ -331,5 +331,23 @@
       768,
       1200
     ]
+  },
+  "/images/work/crew-office.webp": {
+    "width": 2083,
+    "height": 755,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/work/crew-red-shirts.webp": {
+    "width": 1920,
+    "height": 640,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
   }
 }
