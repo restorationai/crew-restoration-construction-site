@@ -101,10 +101,23 @@ const faqItems = homeFaq();
         </div>
       </div>
       {/* The 'crew' YouTube playlist from the old crew3r.com homepage, restored
-          at Mohsin's request (email 2026-11-16, for Kyle). */}
-      <div class="mt-10 md:mt-12 max-w-3xl mx-auto">
-        <h2 class="text-2xl md:text-3xl font-black uppercase tracking-tighter text-white mb-4">More CREW Videos</h2>
-        <VideoEmbed videoId="W-c4EejKufI" playlistId="PLKqC0CIhTfx9THE1FaOKC22ltMD36Vaar" title="CREW Construction & Restoration videos" />
+          at Mohsin's request (email 2026-11-16, for Kyle), with the CREW Bio
+          video Mohsin emailed the same day beside it (self-hosted file, loads
+          nothing until play is pressed). */}
+      <div id="crew-bio" class="mt-10 md:mt-12 grid md:grid-cols-2 gap-8 md:gap-10 items-start">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-black uppercase tracking-tighter text-white mb-4">CREW Bio</h2>
+          <div class="relative w-full overflow-hidden rounded-sm bg-black aspect-video">
+            <video class="absolute inset-0 w-full h-full" controls playsinline preload="none"
+              poster="/videos/crew-bio-poster.webp" title="CREW Bio | Crew Restoration & Construction">
+              <source src="/videos/crew-bio.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        <div>
+          <h2 class="text-2xl md:text-3xl font-black uppercase tracking-tighter text-white mb-4">More CREW Videos</h2>
+          <VideoEmbed videoId="W-c4EejKufI" playlistId="PLKqC0CIhTfx9THE1FaOKC22ltMD36Vaar" title="CREW Construction & Restoration videos" />
+        </div>
       </div>
     </div>
   </section>
