@@ -358,5 +358,14 @@
       768,
       1200
     ]
+  },
+  "/images/work/crew-red-shirts-team.webp": {
+    "width": 2000,
+    "height": 2000,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
   }
 }
