@@ -35,11 +35,11 @@ For homeowners navigating an insurance claim alongside the damage itself, Crew's
 
 | Company | Google Rating | Reviews | IICRC Certified | 24/7 Emergency |
 |---|---|---|---|---|
-| Crew Restoration & Construction |, |, | Yes |, |
-| SERVPRO of Sioux Falls | 4.7 | 151 |, |, |
-| Mustang Disaster CleanUp | 4.5 | 62 |, |, |
-| FloorTec | 5.0 | 6 |, |, |
-| Mold Testing Services, LLC | 5.0 | 11 |, |, |
+| Crew Restoration & Construction | 4.9 | 630 | Yes | Not listed |
+| SERVPRO of Sioux Falls | 4.7 | 151 | Not listed | Not listed |
+| Mustang Disaster CleanUp | 4.5 | 62 | Not listed | Not listed |
+| FloorTec | 5.0 | 6 | Not listed | Not listed |
+| Mold Testing Services, LLC | 5.0 | 11 | Not listed | Not listed |
 
 *Google ratings and review counts reflect publicly available data as of August 2026. IICRC certification status for competitors is not publicly confirmed and is listed as unknown.*
 
