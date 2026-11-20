@@ -22,6 +22,8 @@ import ReviewsSection from "~/components/ui/ReviewsSection.astro";
 import { brand } from "~/lib/brand";
 import homepageServices from "~/data/homepage-services.json";
 import { workPairs } from "~/data/work";
+import { careers } from "~/data/careers";
+import { Briefcase, CheckCircle2, Mail } from "@lucide/astro";
 
 const entry = await getEntry("pages", "home");
 if (!entry) throw new Error("Missing content: pages/home.md — has Skill 3 rendered yet?");
@@ -133,14 +135,50 @@ const faqItems = homeFaq();
     </div>
   </section>
 
-  {/* Careers link from the front of the site (Kyle 2026-11-07). */}
-  <section class="bg-primary-600 text-white py-8">
-    <div class="container-wide max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
-      <div>
-        <h2 class="text-2xl md:text-3xl font-black uppercase tracking-tighter text-white !m-0">We're Hiring in Sioux Falls</h2>
-        <p class="text-white/90 m-0 mt-1">No experience needed. Paid training, IICRC certifications and a path from Apprentice to Lead.</p>
+  {/* Technician Hiring section (Mohsin for CREW, email 2026-11-20: "a
+      professional hiring section or advertisement that highlights our
+      technician job opportunities ... direct applicants to contact us at
+      estimates@crewthatcares.com"). Replaces the Kyle 11-07 careers strip.
+      Openings and wording come from src/data/careers.ts (the client's own
+      posting); the apply CTA is careers.applyEmail. */}
+  <section id="hiring" class="bg-primary-600 text-white py-14 md:py-16">
+    <div class="container-wide max-w-6xl mx-auto px-4">
+      <div class="grid lg:grid-cols-5 gap-8 lg:gap-12 items-center">
+        <div class="lg:col-span-3">
+          <p class="text-sm font-black uppercase tracking-widest text-white/80 m-0 mb-2">Now Hiring Technicians in {brand.addressCity}</p>
+          <h2 class="text-3xl md:text-4xl font-black uppercase tracking-tighter text-white !m-0">Join the CREW</h2>
+          <p class="text-lg text-white/90 mt-4 mb-6">
+            We hire for character and teach the trade. No experience needed: every new
+            technician gets paid training, paid IICRC certifications and a clear path
+            from Apprentice to Specialist to Lead.
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <a href={`mailto:${careers.applyEmail}?subject=${encodeURIComponent("Technician job application")}`}
+              class="inline-flex items-center justify-center gap-2 rounded-md bg-white text-dark-900 font-black uppercase tracking-wider px-6 py-3 no-underline hover:bg-white/90">
+              <Mail size={18} /> Email to Apply
+            </a>
+            <a href="/careers/" class="inline-flex items-center justify-center rounded-md border border-white/60 text-white font-black uppercase tracking-wider px-6 py-3 no-underline hover:bg-white/10">See Job Details</a>
+          </div>
+          <p class="text-white/85 text-sm mt-4 mb-0">Email your name, phone number and a little about yourself to <a href={`mailto:${careers.applyEmail}`} class="font-bold text-white">{careers.applyEmail}</a>.</p>
+        </div>
+        <div class="lg:col-span-2 grid gap-4">
+          {careers.openings.map((o) => (
+            <div class="rounded-2xl bg-white text-dark-900 p-6 shadow-lg">
+              <div class="flex items-center gap-2 mb-1">
+                <Briefcase size={20} class="text-primary-600 shrink-0" />
+                <h3 class="!m-0 text-lg font-black">{o.title}</h3>
+              </div>
+              <p class="text-xs font-bold uppercase tracking-wider text-dark/60 m-0 mb-3">{o.location} · {o.type} · {o.level}</p>
+              <ul class="list-none pl-0 m-0 space-y-2 text-dark/80">
+                {[...o.pay.slice(0, 2), ...o.benefits.slice(0, 2), o.benefits.find((b) => b.startsWith("Paid IICRC")) ?? ""].filter(Boolean).map((x) => (
+                  <li class="flex gap-2 m-0"><CheckCircle2 size={18} class="text-primary-600 shrink-0 mt-0.5" /><span>{x}</span></li>
+                ))}
+              </ul>
+              <a href={`/careers/#${o.slug}`} class="inline-block mt-4 font-black text-primary-700 no-underline hover:underline">Full job details</a>
+            </div>
+          ))}
+        </div>
       </div>
-      <a href="/careers/" class="shrink-0 inline-flex items-center justify-center rounded-md bg-white text-dark-900 font-black uppercase tracking-wider px-6 py-3 no-underline hover:bg-white/90">See Open Jobs</a>
     </div>
   </section>
 
