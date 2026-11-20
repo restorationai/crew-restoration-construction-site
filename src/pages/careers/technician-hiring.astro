@@ -6,16 +6,18 @@
 // hiring hero with the NOW HIRING pill, "Restoration Technicians" headline,
 // tilted team photo with the WE'RE GROWING! sticker, the four chips, the
 // text / apply online / email buttons and the Job details panel (his wording).
-// Below it, the current opening, pay and benefits from src/data/careers.ts and
-// the same Email to Apply button as the homepage #hiring section.
+// ONE job details section only (Mohsin, email 2026-11-20: "Please keep only
+// one job details section... We can share further details with candidates
+// once they contact us."): the Current Opening block (pay, requirements,
+// benefits) that sat below the hero was removed. Do not add it back.
 // The text number is written 605-965-2727 (careers.textNumber) so the
 // call-tracking swap leaves it alone, as on /careers/.
 import BaseLayout from "~/layouts/BaseLayout.astro";
 import { brand } from "~/lib/brand";
 import { careers } from "~/data/careers";
-import { Briefcase, MapPin, Clock, DollarSign, CheckCircle2, GraduationCap, MessageSquare, Mail, Globe, Handshake, Heart, TrendingUp, Plus } from "@lucide/astro";
+import { GraduationCap, MessageSquare, Mail, Globe, Handshake, Heart, TrendingUp, Plus } from "@lucide/astro";
 
-const { openings, applyEmail, textNumber, textNumberRaw } = careers;
+const { applyEmail, textNumber, textNumberRaw } = careers;
 const smsBody = encodeURIComponent("Hi CREW! I'm interested in the Restoration Technician job. My name is ");
 const mailHref = `mailto:${applyEmail}?subject=${encodeURIComponent("Technician job application")}`;
 
@@ -133,48 +135,4 @@ const details = [
     </div>
   </section>
 
-  <section class="bg-white py-16 border-t border-dark/10">
-    <div class="container-wide max-w-5xl mx-auto px-4">
-      <h2 class="!mt-0">Current Opening</h2>
-      {openings.map((o) => (
-        <article class="rounded-2xl border border-dark/15 p-6 md:p-8 mt-6">
-          <div class="flex items-center gap-3 mb-3">
-            <Briefcase size={22} class="text-primary-600 shrink-0" />
-            <h3 class="!mt-0 !mb-0 text-2xl">{o.title}</h3>
-          </div>
-          <p class="flex flex-wrap gap-x-5 gap-y-1 text-sm font-bold uppercase tracking-wider text-dark/60 mb-4">
-            <span class="inline-flex items-center gap-1.5"><MapPin size={15} /> {o.location}</span>
-            <span class="inline-flex items-center gap-1.5"><Clock size={15} /> {o.type}</span>
-            <span>{o.level}</span>
-          </p>
-          <p class="text-lg text-dark/80">{o.summary}</p>
-          <div class="grid md:grid-cols-3 gap-6 mt-6">
-            <div>
-              <h4 class="!mt-0 flex items-center gap-2 text-lg"><DollarSign size={18} class="text-primary-600" /> Pay</h4>
-              <ul class="list-none pl-0 space-y-2">
-                {o.pay.map((x) => <li class="flex gap-2"><CheckCircle2 size={18} class="text-primary-600 shrink-0 mt-0.5" /><span>{x}</span></li>)}
-              </ul>
-            </div>
-            <div>
-              <h4 class="!mt-0 flex items-center gap-2 text-lg"><CheckCircle2 size={18} class="text-primary-600" /> Requirements</h4>
-              <ul class="list-none pl-0 space-y-2">
-                {o.requirements.map((x) => <li class="flex gap-2"><CheckCircle2 size={18} class="text-primary-600 shrink-0 mt-0.5" /><span>{x}</span></li>)}
-              </ul>
-            </div>
-            <div>
-              <h4 class="!mt-0 flex items-center gap-2 text-lg"><GraduationCap size={18} class="text-primary-600" /> Benefits</h4>
-              <ul class="list-none pl-0 space-y-2">
-                {o.benefits.map((x) => <li class="flex gap-2"><CheckCircle2 size={18} class="text-primary-600 shrink-0 mt-0.5" /><span>{x}</span></li>)}
-              </ul>
-            </div>
-          </div>
-          <div class="flex flex-wrap gap-3 mt-6">
-            <a href={mailHref} class="btn-primary inline-flex items-center gap-2 px-6 py-3 font-black no-underline"><Mail size={18} /> Email to Apply</a>
-            <a href={`/careers/#${o.slug}`} class="inline-flex items-center gap-2 rounded-md border border-dark/25 px-6 py-3 font-black text-dark-900 no-underline hover:bg-dark/5">Apply Online</a>
-          </div>
-          <p class="text-dark/70 text-sm mt-4 mb-0">Email your name, phone number and a little about yourself to <a href={`mailto:${applyEmail}`} class="font-bold">{applyEmail}</a>.</p>
-        </article>
-      ))}
-    </div>
-  </section>
 </BaseLayout>
