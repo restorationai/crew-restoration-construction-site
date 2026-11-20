@@ -5,7 +5,11 @@
 // https://crew-cares.vercel.app/api/hiring"). Same layout as his sample: dark
 // hiring hero with the NOW HIRING pill, "Restoration Technicians" headline,
 // tilted team photo with the WE'RE GROWING! sticker, the four chips, the
-// text / apply online / email buttons and the Job details panel (his wording).
+// text / email buttons and the Job details panel (his wording).
+// NO "Apply online / Careers page" button or line (Mohsin, email 2026-11-20:
+// "Please remove the "Apply Online – Careers Page" link. Since this hiring page
+// is already being created under our existing Careers section, there's no
+// need to add another Careers link."). Do not add it back.
 // ONE job details section only (Mohsin, email 2026-11-20: "Please keep only
 // one job details section... We can share further details with candidates
 // once they contact us."): the Current Opening block (pay, requirements,
@@ -15,14 +19,14 @@
 import BaseLayout from "~/layouts/BaseLayout.astro";
 import { brand } from "~/lib/brand";
 import { careers } from "~/data/careers";
-import { GraduationCap, MessageSquare, Mail, Globe, Handshake, Heart, TrendingUp, Plus } from "@lucide/astro";
+import { GraduationCap, MessageSquare, Mail, Handshake, Heart, TrendingUp, Plus } from "@lucide/astro";
 
 const { applyEmail, textNumber, textNumberRaw } = careers;
 const smsBody = encodeURIComponent("Hi CREW! I'm interested in the Restoration Technician job. My name is ");
 const mailHref = `mailto:${applyEmail}?subject=${encodeURIComponent("Technician job application")}`;
 
 const title = `Now Hiring: Restoration Technicians in ${brand.addressCity} | ${brand.displayName}`;
-const meta = `${brand.displayName} in ${brand.addressCity}, ${brand.addressState} is hiring restoration technicians. Join a team that has each other's backs. Text ${textNumber}, apply online or email ${applyEmail}.`;
+const meta = `${brand.displayName} in ${brand.addressCity}, ${brand.addressState} is hiring restoration technicians. Join a team that has each other's backs. Text ${textNumber} or email ${applyEmail}.`;
 
 const chips = [
   { icon: Handshake, label: "We've got your back" },
@@ -50,7 +54,6 @@ const details = [
   ] },
   { h: "How to apply", items: [
     `Text the office at ${textNumber} with your name and a little about yourself.`,
-    "Or apply online on our careers page.",
     `You can also email ${applyEmail}.`,
   ] },
 ];
@@ -105,9 +108,6 @@ const details = [
             class="flex items-center justify-center gap-3 rounded-2xl bg-primary-500 hover:bg-primary-400 px-5 py-4 text-white no-underline shadow-[0_7px_0_#790c10] transition-transform active:translate-y-0.5">
             <MessageSquare size={24} class="shrink-0" />
             <span class="text-xl font-black leading-tight">Text us to apply<small class="block mt-1 text-sm font-bold opacity-90">{textNumber}</small></span>
-          </a>
-          <a href="/careers/#apply" class="flex items-center justify-center gap-2 rounded-2xl border-2 border-white/35 bg-white/5 px-5 py-3.5 text-base font-extrabold text-white no-underline hover:bg-white/10">
-            <Globe size={18} /> Apply online · <b class="text-primary-300">Careers page</b>
           </a>
           <a href={mailHref} class="flex items-center justify-center gap-2 rounded-2xl bg-white px-5 py-3.5 font-black uppercase tracking-wider text-dark-900 no-underline hover:bg-white/90">
             <Mail size={18} /> Email to Apply
