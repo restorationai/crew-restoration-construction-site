@@ -1,0 +1,180 @@
+---
+// Technician Hiring page under Careers (Mohsin for CREW, email 2026-11-20:
+// "We'd like to create a similar page under our existing Careers section,
+// following the same layout and structure. Reference:
+// https://crew-cares.vercel.app/api/hiring"). Same layout as his sample: dark
+// hiring hero with the NOW HIRING pill, "Restoration Technicians" headline,
+// tilted team photo with the WE'RE GROWING! sticker, the four chips, the
+// text / apply online / email buttons and the Job details panel (his wording).
+// Below it, the current opening, pay and benefits from src/data/careers.ts and
+// the same Email to Apply button as the homepage #hiring section.
+// The text number is written 605-965-2727 (careers.textNumber) so the
+// call-tracking swap leaves it alone, as on /careers/.
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import { brand } from "~/lib/brand";
+import { careers } from "~/data/careers";
+import { Briefcase, MapPin, Clock, DollarSign, CheckCircle2, GraduationCap, MessageSquare, Mail, Globe, Handshake, Heart, TrendingUp, Plus } from "@lucide/astro";
+
+const { openings, applyEmail, textNumber, textNumberRaw } = careers;
+const smsBody = encodeURIComponent("Hi CREW! I'm interested in the Restoration Technician job. My name is ");
+const mailHref = `mailto:${applyEmail}?subject=${encodeURIComponent("Technician job application")}`;
+
+const title = `Now Hiring: Restoration Technicians in ${brand.addressCity} | ${brand.displayName}`;
+const meta = `${brand.displayName} in ${brand.addressCity}, ${brand.addressState} is hiring restoration technicians. Join a team that has each other's backs. Text ${textNumber}, apply online or email ${applyEmail}.`;
+
+const chips = [
+  { icon: Handshake, label: "We've got your back" },
+  { icon: Heart, label: "Team first" },
+  { icon: TrendingUp, label: "Growth mindset" },
+  { icon: GraduationCap, label: "We train you" },
+];
+
+const details = [
+  { h: "Our mindset", items: [
+    "We love our teammates and treat them like family",
+    "We show up for each other and for every customer",
+    "We own our work and keep getting better",
+  ] },
+  { h: "What you'll do", items: [
+    "Water damage cleanup, drying and mitigation",
+    "Fire and smoke damage cleanup",
+    "Mold remediation",
+    "Demo and rebuild work with our crews",
+  ] },
+  { h: "Who we're looking for", items: [
+    "Reliable, hardworking and on time",
+    "Good with people, proud of quality work",
+    "Experience is a plus. We'll train the right person.",
+  ] },
+  { h: "How to apply", items: [
+    `Text the office at ${textNumber} with your name and a little about yourself.`,
+    "Or apply online on our careers page.",
+    `You can also email ${applyEmail}.`,
+  ] },
+];
+---
+
+<BaseLayout title={title} meta_description={meta} breadcrumb={[{ name: "Home", url: "/" }, { name: "Careers", url: "/careers/" }, { name: "Technician Hiring" }]}>
+
+  <section class="relative overflow-hidden text-white"
+    style="background: radial-gradient(ellipse 85% 45% at 90% -5%, rgba(232,23,30,.5) 0%, transparent 60%), radial-gradient(ellipse 70% 40% at 0% 105%, rgba(232,23,30,.35) 0%, transparent 60%), linear-gradient(170deg, #1a0a0d 0%, #0e0e11 50%, #120709 100%);">
+    <div class="absolute inset-x-0 top-0 h-1.5" style="background: repeating-linear-gradient(-45deg, #e8171e 0 14px, #fff 14px 28px);" aria-hidden="true"></div>
+    <div class="absolute inset-0 pointer-events-none opacity-[0.05]" style="background: repeating-linear-gradient(-45deg, #fff 0 2px, transparent 2px 34px);" aria-hidden="true"></div>
+
+    <div class="relative container-wide max-w-6xl mx-auto px-4 py-12 md:py-16">
+      <div class="grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
+        <div class="min-w-0">
+          <span class="inline-flex items-center gap-2 rounded-full bg-primary-500 px-4 py-2 text-xs font-black tracking-[0.18em] text-white shadow-lg">
+            <i class="block w-2 h-2 rounded-full bg-white animate-pulse" aria-hidden="true"></i>NOW HIRING
+          </span>
+          <p class="mt-6 mb-0 text-xs md:text-sm font-black uppercase tracking-[0.22em] text-primary-300">{brand.addressCity}, {brand.addressState} · Join the CREW</p>
+          <h1 class="!mt-2 !mb-0 text-white font-black uppercase leading-[0.9] tracking-tight text-5xl md:text-6xl lg:text-7xl">
+            Restoration<br />
+            <span class="inline-block mt-2 rounded-xl bg-primary-500 px-3 pb-1 -rotate-2 shadow-xl">Technicians</span>
+          </h1>
+          <p class="mt-5 mb-0 text-lg md:text-xl leading-relaxed text-white/85 max-w-[40ch]">
+            Skills can be taught. <b class="text-white">Mindset can't.</b> We look for people who show up,
+            own their work and have each other's backs. <b class="text-white">Here, teammates are family.</b>
+          </p>
+          <div class="flex flex-wrap gap-2 mt-6">
+            {chips.map((c) => (
+              <span class="inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/5 px-3 py-1.5 text-sm font-extrabold">
+                <c.icon size={15} class="text-primary-300" /> {c.label}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        <div class="relative min-w-0 px-2 pt-4">
+          <img src="/images/work/crew-red-shirts-team-1200w.webp"
+            srcset="/images/work/crew-red-shirts-team-768w.webp 768w, /images/work/crew-red-shirts-team-1200w.webp 1200w"
+            sizes="(min-width: 1024px) 560px, 100vw"
+            width="900" height="560" loading="eager" fetchpriority="high"
+            alt="The CREW team in red CREW shirts in front of a company truck"
+            class="block w-full h-auto aspect-[900/560] object-cover rounded-3xl border-[6px] border-white -rotate-[1.5deg] shadow-2xl"
+            style="object-position: 50% 42%; box-shadow: 0 22px 40px -14px rgba(0,0,0,.8), 0 0 0 8px rgba(232,23,30,.18);" />
+          <div class="absolute right-0 top-0 rotate-6 rounded-xl border-2 border-white bg-primary-500 px-3 py-2 text-xs md:text-sm font-black tracking-wide text-white shadow-lg">WE'RE GROWING!</div>
+        </div>
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-6 lg:gap-14 mt-10 items-start">
+        <div class="grid gap-3">
+          <a href={`sms:${textNumberRaw}?&body=${smsBody}`}
+            class="flex items-center justify-center gap-3 rounded-2xl bg-primary-500 hover:bg-primary-400 px-5 py-4 text-white no-underline shadow-[0_7px_0_#790c10] transition-transform active:translate-y-0.5">
+            <MessageSquare size={24} class="shrink-0" />
+            <span class="text-xl font-black leading-tight">Text us to apply<small class="block mt-1 text-sm font-bold opacity-90">{textNumber}</small></span>
+          </a>
+          <a href="/careers/#apply" class="flex items-center justify-center gap-2 rounded-2xl border-2 border-white/35 bg-white/5 px-5 py-3.5 text-base font-extrabold text-white no-underline hover:bg-white/10">
+            <Globe size={18} /> Apply online · <b class="text-primary-300">Careers page</b>
+          </a>
+          <a href={mailHref} class="flex items-center justify-center gap-2 rounded-2xl bg-white px-5 py-3.5 font-black uppercase tracking-wider text-dark-900 no-underline hover:bg-white/90">
+            <Mail size={18} /> Email to Apply
+          </a>
+          <p class="m-0 text-center text-sm text-white/65">Prefer email? <a href={`mailto:${applyEmail}`} class="font-bold text-white break-all">{applyEmail}</a></p>
+        </div>
+
+        <details class="group rounded-2xl border border-white/10 bg-[#18181d] overflow-hidden">
+          <summary class="flex cursor-pointer list-none items-center justify-between px-5 py-4 font-black text-base [&::-webkit-details-marker]:hidden">
+            Job details
+            <span class="grid place-items-center w-7 h-7 rounded-full bg-primary-500/20 text-primary-300 transition-transform group-open:rotate-45"><Plus size={16} /></span>
+          </summary>
+          <div class="px-5 pb-5 text-[15px] leading-relaxed text-white/80">
+            {details.map((d) => (
+              <>
+                <h3 class="!mt-3 !mb-1 text-xs font-black uppercase tracking-[0.14em] text-primary-300">{d.h}</h3>
+                <ul class="m-0 pl-5 list-disc marker:text-primary-300">
+                  {d.items.map((x) => <li class="my-1 !text-white/85">{x}</li>)}
+                </ul>
+              </>
+            ))}
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white py-16 border-t border-dark/10">
+    <div class="container-wide max-w-5xl mx-auto px-4">
+      <h2 class="!mt-0">Current Opening</h2>
+      {openings.map((o) => (
+        <article class="rounded-2xl border border-dark/15 p-6 md:p-8 mt-6">
+          <div class="flex items-center gap-3 mb-3">
+            <Briefcase size={22} class="text-primary-600 shrink-0" />
+            <h3 class="!mt-0 !mb-0 text-2xl">{o.title}</h3>
+          </div>
+          <p class="flex flex-wrap gap-x-5 gap-y-1 text-sm font-bold uppercase tracking-wider text-dark/60 mb-4">
+            <span class="inline-flex items-center gap-1.5"><MapPin size={15} /> {o.location}</span>
+            <span class="inline-flex items-center gap-1.5"><Clock size={15} /> {o.type}</span>
+            <span>{o.level}</span>
+          </p>
+          <p class="text-lg text-dark/80">{o.summary}</p>
+          <div class="grid md:grid-cols-3 gap-6 mt-6">
+            <div>
+              <h4 class="!mt-0 flex items-center gap-2 text-lg"><DollarSign size={18} class="text-primary-600" /> Pay</h4>
+              <ul class="list-none pl-0 space-y-2">
+                {o.pay.map((x) => <li class="flex gap-2"><CheckCircle2 size={18} class="text-primary-600 shrink-0 mt-0.5" /><span>{x}</span></li>)}
+              </ul>
+            </div>
+            <div>
+              <h4 class="!mt-0 flex items-center gap-2 text-lg"><CheckCircle2 size={18} class="text-primary-600" /> Requirements</h4>
+              <ul class="list-none pl-0 space-y-2">
+                {o.requirements.map((x) => <li class="flex gap-2"><CheckCircle2 size={18} class="text-primary-600 shrink-0 mt-0.5" /><span>{x}</span></li>)}
+              </ul>
+            </div>
+            <div>
+              <h4 class="!mt-0 flex items-center gap-2 text-lg"><GraduationCap size={18} class="text-primary-600" /> Benefits</h4>
+              <ul class="list-none pl-0 space-y-2">
+                {o.benefits.map((x) => <li class="flex gap-2"><CheckCircle2 size={18} class="text-primary-600 shrink-0 mt-0.5" /><span>{x}</span></li>)}
+              </ul>
+            </div>
+          </div>
+          <div class="flex flex-wrap gap-3 mt-6">
+            <a href={mailHref} class="btn-primary inline-flex items-center gap-2 px-6 py-3 font-black no-underline"><Mail size={18} /> Email to Apply</a>
+            <a href={`/careers/#${o.slug}`} class="inline-flex items-center gap-2 rounded-md border border-dark/25 px-6 py-3 font-black text-dark-900 no-underline hover:bg-dark/5">Apply Online</a>
+          </div>
+          <p class="text-dark/70 text-sm mt-4 mb-0">Email your name, phone number and a little about yourself to <a href={`mailto:${applyEmail}`} class="font-bold">{applyEmail}</a>.</p>
+        </article>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
