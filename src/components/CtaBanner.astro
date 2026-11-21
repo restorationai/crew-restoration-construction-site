@@ -6,6 +6,7 @@
 // incident, brand/hero.webp missing). Never add a decorative <img> here
 // without a build-verified src.
 import { brand } from "~/lib/brand";
+import { callShortLabel } from "~/lib/availability";
 import { pagePhone } from "~/lib/office";
 const ph = pagePhone(Astro.locals);
 
@@ -39,7 +40,7 @@ const {
         href={`tel:${ph.phoneRaw}`}
         class={`inline-flex items-center justify-center font-bold px-8 py-3 rounded-md transition-all text-lg shadow-lg ${isSensitive ? 'bg-dark text-white hover:bg-dark-800' : 'bg-cta text-cta-fg hover:bg-cta-hover'}`}
       >
-        Call {ph.phone}
+        {callShortLabel} {ph.phone}
       </a>
       <a
         href="/contact/#estimate"
