@@ -25,8 +25,8 @@ export const brand = {
   // keep the canonical NAP number above — humans dial the tracked line,
   // Google sees consistent NAP. Empty = feature off (default at scaffold;
   // filled by the call-tracking provisioning step).
-  trackingPhone: "(605) 656-5940",
-  trackingPhoneRaw: "+16056565940",
+  trackingPhone: "(877) 759-0695",
+  trackingPhoneRaw: "+18777590695",
   email: "estimates@crewthatcares.com",
   hours: "24/7",
   // AVAILABILITY 24/7 (Santino 2026-11-21, scripts/availability.py): calls are
