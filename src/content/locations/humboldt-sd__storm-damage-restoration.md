@@ -28,7 +28,7 @@ Humboldt sits on open, flat farmland with little natural windbreak beyond the sh
 
 ## Our Storm Damage Restoration Process in Humboldt
 
-The first visit is about stopping further loss, not full repair. That means tarping an opened roof section, boarding broken windows, and removing fallen limbs or debris that are actively pressing on a structure or blocking a driveway. From there we document everything with photos for the insurance file, extract any water that got in during the event, and set up drying equipment per IICRC-informed drying standards if moisture reached framing, insulation, or drywall. Once the structure is stable, we scope the rebuild: roofing, siding, gutters, or interior reconstruction, often the same crew carrying the job from mitigation through to finished repair instead of handing it off between companies.
+The first visit is about stopping further loss, not full repair. That means tarping an opened roof section, boarding broken windows, and removing fallen limbs or debris that are actively pressing on a structure or blocking a driveway. From there we document everything with photos for the insurance file, extract any water that got in during the event, and set up drying equipment per IICRC-informed drying standards if moisture reached framing, insulation, or drywall. Once the structure is stable, we scope the rebuild: roofing, siding, or interior reconstruction, often the same crew carrying the job from mitigation through to finished repair instead of handing it off between companies.
 
 ## Reaching Humboldt from Sioux Falls
 

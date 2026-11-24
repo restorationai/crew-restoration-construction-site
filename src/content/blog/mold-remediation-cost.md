@@ -93,4 +93,4 @@ For a mold assessment in Sioux Falls or the surrounding area, contact Crew Resto
 
 **About Crew Restoration & Construction**
 
-Crew Restoration & Construction is an IICRC-certified restoration and construction company serving Sioux Falls, SD and surrounding communities since 2015 (license 3814). Their team handles mold remediation, water damage restoration, fire damage restoration, storm damage restoration, sewage cleanup, biohazard cleanup, asbestos abatement, roofing, siding and gutters, contents restoration, and general contracting across the region. Estimates are provided in writing before work begins.
+Crew Restoration & Construction is an IICRC-certified restoration and construction company serving Sioux Falls, SD and surrounding communities since 2015 (license 3814). Their team handles mold remediation, water damage restoration, fire damage restoration, storm damage restoration, sewage cleanup, biohazard cleanup, asbestos abatement, roofing, siding and exterior repair, contents restoration, and general contracting across the region. Estimates are provided in writing before work begins.

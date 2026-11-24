@@ -55,7 +55,7 @@ Crews that skip that pattern leave homeowners guessing, and that is usually when
 
 Look for a company that treats communication as part of the scope of work, not an afterthought that happens if there is time. Ask how updates are delivered, who your point of contact is for the length of the job, and what the final walkthrough looks like before you sign anything.
 
-Crew Restoration & Construction is an IICRC-certified, licensed and insured company (license #3814) that has served Sioux Falls, South Dakota since 2015. The crew handles water damage restoration, fire damage restoration, mold remediation, storm damage restoration, sewage cleanup, biohazard cleanup, asbestos abatement, contents restoration, roofing, siding and gutters, and general contracting across the Sioux Falls metro and surrounding communities.
+Crew Restoration & Construction is an IICRC-certified, licensed and insured company (license #3814) that has served Sioux Falls, South Dakota since 2015. The crew handles water damage restoration, fire damage restoration, mold remediation, storm damage restoration, sewage cleanup, biohazard cleanup, asbestos abatement, contents restoration, roofing, siding and exterior repair, and general contracting across the Sioux Falls metro and surrounding communities.
 
 If your house needs to get back in order, [request an estimate](/contact/) and ask what the communication plan looks like before a crew ever shows up.
 
@@ -63,4 +63,4 @@ If your house needs to get back in order, [request an estimate](/contact/) and a
 
 **About Crew Restoration & Construction**
 
-Crew Restoration & Construction is an IICRC-certified, licensed (license #3814) and insured restoration and construction company serving Sioux Falls, South Dakota and the surrounding region since 2015. Their crews handle water damage restoration, fire damage restoration, mold remediation, storm damage restoration, sewage cleanup, biohazard cleanup, asbestos abatement, contents restoration and storage, emergency board-up and tarping, roofing, siding and gutters, post-construction cleaning, and general contracting across southeastern South Dakota, southwestern Minnesota, and northwestern Iowa.
+Crew Restoration & Construction is an IICRC-certified, licensed (license #3814) and insured restoration and construction company serving Sioux Falls, South Dakota and the surrounding region since 2015. Their crews handle water damage restoration, fire damage restoration, mold remediation, storm damage restoration, sewage cleanup, biohazard cleanup, asbestos abatement, contents restoration and storage, emergency board-up and tarping, roofing, siding and exterior repair, post-construction cleaning, and general contracting across southeastern South Dakota, southwestern Minnesota, and northwestern Iowa.

@@ -59,7 +59,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Post-Construction and Specialty Cleaning](https://crew3r.com/services/post-construction-cleaning/)
 - [Roofing Installation and Replacement](https://crew3r.com/services/roofing/)
 - [Sewage Cleanup and Sanitization](https://crew3r.com/services/sewage-cleanup/)
-- [Siding and Gutters](https://crew3r.com/services/siding-gutters/)
+- [Siding and Exterior Repair](https://crew3r.com/services/siding-exterior-repair/)
 - [Storm Damage Restoration](https://crew3r.com/services/storm-damage-restoration/)
 - [Water Damage Restoration](https://crew3r.com/services/water-damage-restoration/)` / `- [Sioux Falls, SD](https://crew3r.com/service-areas/sioux-falls-sd/)
 - [Brookings, SD](https://crew3r.com/service-areas/brookings-sd/)

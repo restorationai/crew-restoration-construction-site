@@ -40,7 +40,7 @@ Once the scope is set, work typically moves in this order:
 - **Emergency tarping and board-up** to stop active water intrusion through roof breaches or broken windows
 - **Water extraction and structural drying** using commercial-grade drying equipment for any interior moisture that entered through the breach
 - **Debris removal**, including tree limbs, downed fencing, and displaced roofing materials
-- **Structural repairs**, roof decking, rafters, siding panels, gutters, and fascia, using materials that match local building code requirements for Sioux County
+- **Structural repairs**, roof decking, rafters, siding panels, and fascia, using materials that match local building code requirements for Sioux County
 - **Interior restoration** for ceilings, walls, and flooring affected by water infiltration
 
 Every phase is documented so your insurance file is complete before we close out the job.

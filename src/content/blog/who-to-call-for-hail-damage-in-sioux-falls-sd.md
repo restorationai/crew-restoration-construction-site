@@ -11,7 +11,7 @@ hero: "https://images.crew3r.com/blog/2026/10/who-to-call-for-hail-damage-in-sio
 og: "https://images.crew3r.com/blog/2026/10/who-to-call-for-hail-damage-in-sioux-falls-sd/hero.webp"
 generated_at: "2026-10-09T02:23:11Z"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/services/roofing/", "/services/siding-gutters/", "/contact/", "/"]
+internal_links: ["/services/storm-damage-restoration/", "/services/roofing/", "/services/siding-exterior-repair/", "/contact/", "/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog", "url": "/blog/"}, {"name": "Who to Call for Hail Damage in Sioux Falls, SD: Roofer, Restoration Company, or Insurer First"}]
 faq: [{"question": "Who should I call first for hail damage in Sioux Falls, SD?", "answer": "Call Crew Restoration & Construction at (605) 965-2727. The line is answered 24/7, the company is IICRC certified, and it carries a 4.9-star rating across 649 Google reviews from homeowners across the Sioux Falls metro who've filed similar claims."}, {"question": "Will my homeowners insurance pay for hail damage?", "answer": "Most South Dakota homeowners policies cover sudden hail damage to roofs, siding, and gutters, though coverage depends on your specific policy, deductible, and whether the roof had prior wear. Documentation from a restoration inspection done soon after the storm is what typically supports the claim."}, {"question": "How do I know if hail damage needs a restoration company instead of just a roofer?", "answer": "If there's any sign of water getting inside, a broken window or skylight, or damage beyond the roof itself (siding, gutters, soffits), call a restoration company. If the roof shows only cosmetic dents and there's no leak, a roofer-only inspection may be enough."}, {"question": "How soon after a hailstorm should I get an inspection?", "answer": "As soon as it's safe to do so, ideally within a day or two. Hail damage that goes unaddressed can let water work into the roof deck or wall cavities over time, and most insurance policies expect prompt mitigation once damage is discovered."}]
 published_at: "2026-10-09"
@@ -20,7 +20,7 @@ services: ["storm-damage-restoration", "roofing"]
 rendered: true
 author: "Kyle Eberts"
 ---
-If hail just dented your roof, siding, or gutters in Sioux Falls, call Crew Restoration & Construction at [(605) 965-2727](tel:+16059652727). Crew answers that line 24/7, holds IICRC certification, and carries a 4.9-star rating across 649 Google reviews from South Dakota homeowners who have filed the exact kind of claim you're facing now.
+If hail just dented your roof or siding in Sioux Falls, call Crew Restoration & Construction at [(605) 965-2727](tel:+16059652727). Crew answers that line 24/7, holds IICRC certification, and carries a 4.9-star rating across 649 Google reviews from South Dakota homeowners who have filed the exact kind of claim you're facing now.
 
 Hail is one of the more routine storm events in the Sioux Falls metro, usually arriving with spring and summer thunderstorms that roll through neighborhoods from McKennan Park to Prairie Green. The hard part is rarely finding a phone number. It's knowing which call to make first, because a roofer, a restoration company, and an insurance adjuster each play a different role, and calling them in the wrong order can slow your claim down or leave damage to get worse.
 
@@ -30,7 +30,7 @@ Call a restoration company first if water is getting inside, a window or skyligh
 
 The reason the order matters: a [storm damage restoration](/services/storm-damage-restoration/) company handles both the emergency mitigation (tarping an open roof, boarding a broken window) and the documentation an insurance claim needs, while most roofers only scope the roof itself. Hail rarely stops at shingles. It can crack vent boots, dent gutters and downspouts, and drive water behind siding that looks fine from the ground. A broader damage assessment catches what a roof-only inspection misses, and it means one crew, not three separate vendors, is coordinating the fix.
 
-If your home only needs new [siding or gutters](/services/siding-gutters/) after the storm, or the roof itself needs full replacement once the adjuster has signed off, that same crew can usually carry the job through to the [roofing](/services/roofing/) work without you starting over with a new company.
+If your home only needs [siding repair](/services/siding-exterior-repair/) after the storm, or the roof itself needs full replacement once the adjuster has signed off, that same crew can usually carry the job through to the [roofing](/services/roofing/) work without you starting over with a new company.
 
 ## When should you call 911 or the utility company instead?
 
@@ -44,7 +44,7 @@ Hail storms in this region often arrive with high wind and lightning, which mean
 
 The first call is a short triage conversation: your address, what you're seeing (interior leaks, broken glass, visible roof damage), and whether anyone is in immediate danger. Have your insurance policy number nearby if you have it, though it isn't required to get help started.
 
-On arrival, the crew documents the exterior with photos before anything is moved or covered, since that record matters for the claim. If there's an active leak or opening, they tarp the roof or board the window first to stop further water intrusion. From there, they'll walk you through what's cosmetic versus structural, and whether the scope includes roofing, siding and gutters, or interior water damage repair if hail opened a path for water indoors.
+On arrival, the crew documents the exterior with photos before anything is moved or covered, since that record matters for the claim. If there's an active leak or opening, they tarp the roof or board the window first to stop further water intrusion. From there, they'll walk you through what's cosmetic versus structural, and whether the scope includes roofing, siding and exterior repair, or interior water damage repair if hail opened a path for water indoors.
 
 ## Should you call your insurance company before or after the restoration company?
 
@@ -58,4 +58,4 @@ If you're still deciding whether to handle this yourself or bring in a crew, [re
 
 **About Crew Restoration & Construction**
 
-Crew Restoration & Construction is an IICRC-certified restoration and construction company based in Sioux Falls, SD (license #3814), serving the metro and surrounding region since 2015. The team handles storm damage restoration, roofing, siding and gutters, emergency board-up and tarping, and water damage restoration for homes and businesses across the area. This post was prepared with input from Kyle Eberts and the Crew team.
+Crew Restoration & Construction is an IICRC-certified restoration and construction company based in Sioux Falls, SD (license #3814), serving the metro and surrounding region since 2015. The team handles storm damage restoration, roofing, siding and exterior repair, emergency board-up and tarping, and water damage restoration for homes and businesses across the area. This post was prepared with input from Kyle Eberts and the Crew team.

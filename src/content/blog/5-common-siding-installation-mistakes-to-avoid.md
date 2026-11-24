@@ -11,12 +11,12 @@ hero: "https://images.crew3r.com/blog/2026/10/5-common-siding-installation-mista
 og: "https://images.crew3r.com/blog/2026/10/5-common-siding-installation-mistakes-to-avoid/hero.webp"
 generated_at: "2026-10-04T23:49:29Z"
 manual_override: false
-internal_links: ["/services/siding-gutters/", "/services/roofing/", "/"]
+internal_links: ["/services/siding-exterior-repair/", "/services/roofing/", "/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog", "url": "/blog/"}, {"name": "5 Common Siding Installation Mistakes to Avoid"}]
 faq: [{"question": "What's the best time of year to install siding in Sioux Falls?", "answer": "Spring is generally the best time of year to replace siding, as long as the wall surface can stay dry during installation. Moderate temperatures also make it easier to set the fastening and joint spacing correctly, since siding expands and contracts as temperatures change."}, {"question": "Can a siding mistake be fixed without replacing the whole wall?", "answer": "Sometimes. Improper nailing or joint overlap can often be corrected panel by panel if the underlying weather barrier and sheathing are still sound. But if clearance issues have let moisture sit against the wall for a season or more, the sheathing and framing behind it need to be inspected before any new siding goes back up."}, {"question": "How do I know if my current siding was installed correctly?", "answer": "Look for buckling or a wavy appearance along flat runs, visible nail heads, siding that touches the ground or roofline directly, Any of these point to one of the five mistakes above and are worth having a contractor inspect."}, {"question": "Does foam insulation behind siding actually make a difference?", "answer": "It adds another barrier to the wall: it helps protect the home from damage, reduces noise, and minimizes seam issues. It is not a substitute for the weather-resistive barrier and flashing, which still need to go on first."}]
 published_at: "2026-10-04"
 updated_at: "2026-10-04"
-services: ["siding-gutters"]
+services: ["siding-exterior-repair"]
 rendered: true
 author: "Kyle Eberts"
 ---
@@ -62,6 +62,6 @@ It's one of the harder mistakes to spot from the ground; it usually shows up as 
 
 Any of the five issues above are a sign the original installation needs a second look from a licensed contractor, not a caulk-gun fix. Buckling, visible nail heads, water staining at the base of a wall, or soft spots in the sheathing behind the siding usually mean the problem is already deeper than the surface.
 
-Crew Restoration & Construction handles full siding and gutter installation and replacement across the Sioux Falls metro, and can look at an existing installation that is showing the warning signs above. Learn more on the [siding and gutters service page](/services/siding-gutters/).
+Crew Restoration & Construction handles full siding repair and replacement across the Sioux Falls metro, and can look at an existing installation that is showing the warning signs above. Learn more on the [siding and exterior repair service page](/services/siding-exterior-repair/).
 
 Getting siding replaced correctly the first time avoids costly rot and mold repairs later. [Call Crew Restoration & Construction at (605) 965-2727](tel:+16059652727) to schedule a project estimate before the ground freezes.

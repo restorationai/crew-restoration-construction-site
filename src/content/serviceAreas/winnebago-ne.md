@@ -31,7 +31,7 @@ Water damage in Winnebago often starts in a crawlspace or utility room and sprea
 
 Sewage cleanup and sanitization comes up when heavy rain overwhelms septic systems or older drain lines common to the area's housing stock. We also handle basement and water heater flood cleanup, ceiling water damage repair after roof or plumbing leaks, and water leak detection when a slow, hidden leak is doing damage you can't see yet.
 
-Fire damage restoration and smoke damage restoration cover everything from a kitchen fire to smoke traveling through a whole structure. Storm damage restoration and emergency board-up and tarping protect a property immediately after wind or hail opens up a roof or window. For long-term moisture problems, mold inspection and testing followed by mold remediation addresses growth before it spreads into framing. We also offer reconstruction services, general contracting and remodels, roofing installation and replacement, and siding and gutters, so the same team that dries and cleans a property can also rebuild it.
+Fire damage restoration and smoke damage restoration cover everything from a kitchen fire to smoke traveling through a whole structure. Storm damage restoration and emergency board-up and tarping protect a property immediately after wind or hail opens up a roof or window. For long-term moisture problems, mold inspection and testing followed by mold remediation addresses growth before it spreads into framing. We also offer reconstruction services, general contracting and remodels, roofing installation and replacement, and siding and exterior repair, so the same team that dries and cleans a property can also rebuild it.
 
 ## Coverage and how fast we can get there
 
