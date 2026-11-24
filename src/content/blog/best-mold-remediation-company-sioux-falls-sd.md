@@ -44,7 +44,7 @@ When you call a company, ask directly whether the technician coming to your hous
 
 | Company | Google Rating | Reviews | 24/7 Emergency | IICRC Certified |
 |---|---|---|---|---|
-| Crew | 4.9 | 630 | Yes | Yes |
+| Crew | 4.9 | 629 | Yes | Yes |
 | INTEK | Not listed | Not listed | Not listed | Not listed |
 | ServiceMaster Restoration | Not listed | Not listed | Not listed | Not listed |
 | Rainbow International | Not listed | Not listed | Not listed | Not listed |

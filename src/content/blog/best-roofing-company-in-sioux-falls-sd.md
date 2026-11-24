@@ -58,7 +58,7 @@ Wegner Roofing & Solar is a roofing contractor located at 6100 W 41st St, Unit 1
 
 | Company | Google Rating | Reviews | 24/7 Emergency | IICRC Certified |
 |---|---|---|---|---|
-| Crew Restoration & Construction | 4.9 | 630 | Yes | Yes |
+| Crew Restoration & Construction | 4.9 | 629 | Yes | Yes |
 | Top Notch Roofing | 5.0 | 341 | Not listed | Not listed |
 | Premier Systems Roofing | 4.9 | 273 | Not listed | Not listed |
 | T2 Roofing | 5.0 | 59 | Not listed | Not listed |
