@@ -24,7 +24,7 @@ Deck repairs that involve code compliance, ledger board construction, and stair 
 
 > "Customer has requested deck repairs, including replacement of any affected decking boards. Stairs are to be added, with preference for placement on the right side when viewed from the backyard; however, left-side installation may also be considered if it provides better flow. It should be noted that the current footings are not up to code, and the deck is constructed with a ledger board. Full inspection of the deck was not completed as the customer was not home at the time of visit."
 >
-> -- from the Crew project notes
+> from the Crew project notes
 
 **Project Details**
 
