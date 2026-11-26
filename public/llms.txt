@@ -126,7 +126,7 @@ This file is intended for AI assistants and language models to efficiently inges
 
 - Rated 4.9/5 from 629 Google reviews
 - **Founded:** 2015
-- **Licenses:**  · 
+- **Licenses:** Licensed in SD (#3814)
 - **Certifications:** IICRC
 - **Response time:** 24/7 emergency dispatch
 - **Emergency response:** 24/7 emergency dispatch in Sioux Falls. Direct insurance billing. Call (605) 965-2727.
