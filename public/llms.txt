@@ -122,6 +122,14 @@ This file is intended for AI assistants and language models to efficiently inges
 (profiles listed in page schema)
 - [Emergency](https://crew3r.com/emergency/): 24/7 emergency water damage response
 
+<!-- rankai:offices:begin -->
+
+## Offices
+
+- [Crew Restoration & Construction - Roofing, Water, Mold & Fire Damage Restoration, Sioux City, IA office](https://crew3r.com/locations/sioux-city-ia/): 4700 Gordon Dr, Ste 102, Sioux City, IA 51106. Phone (712) 717-5283.
+
+<!-- rankai:offices:end -->
+
 ## Key facts
 
 - Rated 4.9/5 from 629 Google reviews

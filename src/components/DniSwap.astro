@@ -111,9 +111,12 @@ import { brand } from "~/lib/brand";
         return saved && saved.s;
       }
       function run() {
-        swap(op, opr, tp, tpr);
+        // rankai:dni-office-exempt (Santino 11-27): an office page shows the office's own line;
+        // the sitewide swap never runs there (attribution still records)
+        var officePage = /^\/locations\/[^\/]+\/?$/.test(location.pathname);
+        if (!officePage) swap(op, opr, tp, tpr);
         var src = attributedSource();
-        if (!src || !slug) return;
+        if (officePage || !src || !slug) return;
         fetch("https://restorationai.io/dni/" + slug + ".json")
           .then(function (r) { return r.json(); })
           .then(function (map) {

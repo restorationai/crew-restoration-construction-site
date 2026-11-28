@@ -73,8 +73,12 @@ const officeSchema = {
     { "@type": "City", name: `${o.city}, ${o.state}` },
     ...o.nearby_areas.map((a) => ({ "@type": "City", name: `${a.city}, ${a.state}` })),
   ],
-  hasMap: directionsHref,
+  // rankai:office-schema-v2 (Santino 11-27): the page goes up at address-set, before
+  // the office's Google profile exists, so hasMap / sameAs name the profile only once
+  // office_pages.py writes gbp_url (gbp_location_name set). branchOf = the brand.
+  ...(o.gbp_url ? { hasMap: o.gbp_url } : {}),
   ...(o.gbp_url ? { sameAs: [o.gbp_url] } : {}),
+  branchOf: { "@type": "Organization", "@id": `${brand.canonicalUrl}/#organization`, name: brand.dbaName || brand.legalName || brand.displayName, url: brand.canonicalUrl },
   parentOrganization: {
     "@type": "Organization",
     "@id": `${brand.canonicalUrl}/#organization`,
